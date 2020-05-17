@@ -1,0 +1,1602 @@
+{
+    "akkad": {
+        "country": "Akkad",
+        "leader": "Sargon",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Epic of Battle",
+                "value": "+5% Science when the empire is happy. +3 Culture, +1 Happiness and +1 Production from conquered cities. Generals give a +15% combat strength against cities to nearby units."
+            },
+            {
+                "name": "Akkadian Library",
+                "value": "Replaces Library: Costs no maintenance, +1 science."
+            },
+            {
+                "name": "Laputtu",
+                "value": "Replaces Spearmen. 13 strength. Increased tile improvement rates on tiles where it is stationed (+100%)."
+            }
+        ]
+    },
+    "america": {
+        "country": "America",
+        "leader": "Washington",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Manifest Destiny",
+                "value": "All land military units have +1 Sight. 50% discount when purchasing tiles."   
+            },
+            {
+                "name": "Minutemen",
+                "value": "Unique front-line unit of the American civilization. Replaces the Musketmen."
+            },
+            {
+                "name": "Pioneer",
+                "value": "Replaces Settler. Ignores Terrain cost. 5 combat strength"
+            }
+        ]
+    },
+    "arabia": {
+        "country": "Arabia",
+        "leader": "Harun al-Rashid",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Ships of the Desert",
+                "value": "Caravans gain 50% extended range. Your trade routes spread the home city's religion twice as effectively. Oil resources are doubled."
+            },
+            {
+                "name": "Camel Archer",
+                "value": "Unique ranged mounted unit of the Arabian civilization. Replaces the Knight. Requires Horses."
+            },
+            {
+                "name": "Bazaar",
+                "value": "Unique building of the Arabian civilization. Replaces the Market."
+            }
+        ]
+    },
+    "argentina": {
+        "country": "Argentina",
+        "leader": "Eva Perón",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Pride of the People",
+                "value": "+1 Food from Pastures, build pastures twice as fast"
+            },
+            {
+                "name": "Gaucho",
+                "value": "Replaces Riflemen. 4 Movement, 34 strength, considered a mounted unit. May withdraw from Melee attacks (50% chance). May build Pastures and Farms faster than a regular worker"
+            },
+            {
+                "name": "Tanguería",
+                "value": "Replaces Opera House. +3 culture. Has 1 slot for musicians."
+            }
+        ]
+    },
+    "armenia": {
+        "country": "Armenia",
+        "leader": "Artaxias I",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Splendor of the Caucasus",
+                "value": "+1 Food, +2 Production and +1 Gold from Mountains (including Mountain natural wonders - i.e. Kilimanjaro, Uluru, Mt. Fuji, Mt. Sinai, Mt. Kailash, Rock of Gibraltar and Sri Pada)"
+            },
+            {
+                "name": "Sparapet",
+                "value": "Replaces Horseman. Requires 80 production and 2 horses, 17 combat strength, has Great General +15% combat to surrounding units (2 radius). Does not obsolete"
+            },
+            {
+                "name": "Darbas",
+                "value": "Replaces observatory. Provides +1 culture, +4 science base and +3 culture and +4 science on mountains. (this includes mountain natural wonders)"
+            }
+        ]
+    },
+    "assyria": {
+        "country": "Assyria",
+        "leader": "Ashurbanipal",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Siege Warfare",
+                "value": "+1 movement for all siege units. Free Great Writer at Philosophy"
+            },
+            {
+                "name": "Royal Library",
+                "value": "+1 culture, +1 science"
+            },
+            {
+                "name": "Siege Tower",
+                "value": "Unique siege unit of the Assyrian civilization. Replaces the Catapult."
+            }
+        ]
+    },
+    "australia": {
+        "country": "Australia",
+        "leader": "Edmund Barton",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Dreamtime",
+                "value": "+5 Faith from Natural Wonders."
+            },
+            {
+                "name": "Ngangkari",
+                "value": "Replaces Worker. Starts with Medic I and Medic II promotions. Has +1 movement, can build workboats (4 turn build). Will not consume the unit"
+            },
+            {
+                "name": "Convict Penitentiary",
+                "value": "Replaces Constabulary. Available at Machinery. Provides +1 gold, +1 production, +5% gold, and +5% production"
+            }
+        ]
+    },
+    "austria": {
+        "country": "Austria",
+        "leader": "Maria Theresa",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Diplomatic Marriage",
+                "value": "Can spend Gold to annex or puppet a City-State that has been your ally for 5 turns."
+            },
+            {
+                "name": "Hussar",
+                "value": "Unique unit of the Austrian civilization. Replaces the Cavalry. Requires Horses."
+            },
+            {
+                "name": "Coffee House",
+                "value": "Unique building of the Austrian civilization. Replaces the Windmill."
+            }
+        ]
+    },
+    "ayyubids": {
+        "country": "Ayyubids",
+        "leader": "Saladin",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Justice of Saladin",
+                "value": "All cities receive a free Burial Tomb upon capture. +25% Improvement construction rate."
+            },
+            {
+                "name": "Madrasah",
+                "value": "Replaces University. +2 Faith, +1 Science from Flood Plains, +2 Science from Oases."
+            },
+            {
+                "name": "Mamluk",
+                "value": "Replaces Knight. 20 Strength, +50% vs Melee units, +25% vs Gunpowder units."
+            }
+        ]
+    },
+    "aztecs": {
+        "country": "Aztecs",
+        "leader": "Montezuma",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Sacrificial Captives",
+                "value": "Gains Culture for the empire from each enemy unit killed."
+            },
+            {
+                "name": "Floating Gardens",
+                "value": "Unique building of the Aztec civilization. Replaces the Water Mill. +10% Food, +1 Food for each worked lake tile, +2 food and +1 Production, City must border fresh water"
+            },
+            {
+                "name": "Jaguar",
+                "value": "Unique front-line unit of the Aztec civilization. Replaces the Warrior. Available right from the start of the game."
+            }
+        ]
+    },
+    "babylon": {
+        "country": "Babylon",
+        "leader": "Nebuchadnezzar II",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Ingenuity",
+                "value": "Receive a free Great Scientist when you discover Philosophy. Earn Great Scientists 33% faster."
+            },
+            {
+                "name": "Walls of Babylon",
+                "value": "Unique building of the Babylonian civilization. Replaces the Walls."
+            },
+            {
+                "name": "Bowman",
+                "value": "Unique ranged unit of the Babylonian civilization. Replaces the Archer."
+            }
+        ]
+    },
+    "belgium": {
+        "country": "Belgium",
+        "leader": "Leopold II",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Colonialist Riches",
+                "value": "+1 Production from Plantations. +1 Gold from Strategic Resources."
+            },
+            {
+                "name": "Stade",
+                "value": "Replaces Zoo. +3 Happiness, +1 Culture, +1 Gold. Cheaper to construct."
+            },
+            {
+                "name": "Force Publique",
+                "value": "Replaces Great War Infantry. 51 strength, has Drill I and Charge."
+            }
+        ]
+    },
+    "boers": {
+        "country": "Boers",
+        "leader": "Stephanus Johannes Paulus Kruger",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "The Great Trek",
+                "value": "+1 food from non-fresh water farms, +1 culture from farms after the discovery of Fertilizer"
+            },
+            {
+                "name": "Staatsmuseum",
+                "value": "Replaces Opera House. +3 Culture, has a Great Artist Specialist."
+            },
+            {
+                "name": "Voortrekker",
+                "value": "Replaces Great War Infantry. Cheaper to build.50 Strength, +25% strength defending, heals completely upon killing a unit. Can build 2 turn Farms."
+            }
+        ]
+    },
+    "brazil": {
+        "country": "Brazil",
+        "leader": "Pedro II",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Carnival",
+                "value": "Tourism output is +100% during their Golden Ages. Earn Great Artists, Musicians, and Writers 100% faster during their Golden Ages."
+            },
+            {
+                "name": "Pracinha",
+                "value": "Unique unit of the Brazilian civilization. Replaces the Infantry. 80 Strength and Foreign Lands bonus (+20% Combat Strength in foreign territory) on top of its normal promotions."
+            },
+            {
+                "name": "Brazilwood Camp",
+                "value": "Now available at Bronze Working (instead of Machinery). Provides +1 Production (instead of +2 Gold). Gains +2 Gold at Machinery and +2 Culture at Acoustics."
+            }
+        ]
+    },
+    "bulgaria": {
+        "country": "Bulgaria",
+        "leader": "Asparukh Khan",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Cyrillic Script",
+                "value": "Writer Specialists yield +3 science, Science buildings receive +1 culture"
+            },
+            {
+                "name": "Konnitsa",
+                "value": "Replaces knight, performs a ranged attack before attacking, has +25% combat bonus against gunpowder units."
+            },
+            {
+                "name": "Khambar",
+                "value": "Replaces granary, 10% cheaper, in addition provides +1 gold from wheat and cow"
+            }
+        ]
+    },
+    "brunei": {
+        "country": "Brunei",
+        "leader": "Bolkiah",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Austronesian Thalassocracy",
+                "value": "+1 Gold from water tiles."
+            },
+            {
+                "name": "Nelayan",
+                "value": "Replaces Work Boat. Has 10 Combat Strength. Can build Fishing Boats and Kampong Ayer in 4 Turns."
+            },
+            {
+                "name": "Kampong Ayer",
+                "value": "Requires Optics. Can be built on any coastal tile touching land. Provides +1 Food, +1 Culture and +1 Gold and an additional Culture and Gold after discovering Flight"
+            }
+        ]
+    },
+    "burma": {
+        "country": "Burma",
+        "leader": "Anawrahta",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Yainkyaayymhu Aamwayaanhait",
+                "value": "+1 Happiness per city"
+            },
+            {
+                "name": "Akyat Cannon",
+                "value": "Replaces Cannon, available at Gunpowder. Has the same stats (that includes cost) as a Trebuchet but 3 range."
+            },
+            {
+                "name": "Kyawwat",
+                "value": "Replaces Stoneworks, provides +1 happiness and +1 production. +1 production from salt, marble, stone, iron. Does not require any resource to build."
+            }
+        ]
+    },
+    "byzantium": {
+        "country": "Byzantium",
+        "leader": "Theodora",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Patriarchate of Constantinople",
+                "value": "Choose one more Belief than normal when you found a Religion."
+            },
+            {
+                "name": "Hippodrome",
+                "value": "Replaces Amphitheater. Provides +2 faith, +2 culture, +1 happiness."
+            },
+            {
+                "name": "Cataphract",
+                "value": "Unique mounted unit of the Byzantine civilization. Replaces the Horseman. Requires Horses."
+            }
+        ]
+    },
+    "canada": {
+        "country": "Canada",
+        "leader": "John A. MacDonald",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Canadian Fur Trade",
+                "value": "+2 Gold from Camps, +2 Gold and +1 Culture from Lakes."
+            },
+            {
+                "name": "Combat Engineer",
+                "value": "Replaces Rifleman. Available at Industrialization. 34 Strength, 3 Moves, can construct Roads, Railroads, Forts, and clear Forest, Jungle and Marsh."
+            },
+            {
+                "name": "Tim Horton’s",
+                "value": "Replaces Stock Exchange. +2 Happiness. +1 gold on river tiles"
+            }
+        ]
+    },
+    "carthage": {
+        "country": "Carthage",
+        "leader": "Dido",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Phoenecian Heritage",
+                "value": "All coastal Cities get a free Harbor. Units may cross mountains after the first Great General is earned, taking 50 HP damage if they end a turn on a mountain."
+            },
+            {
+                "name": "Cothon",
+                "value": "Replaces Lighthouse. +1 food, production and gold in addition to normal effects of a lighthouse"
+            },
+            {
+                "name": "African Forest Elephant",
+                "value": "No longer has increased production cost. If attacking from higher elevation (hills to flat land, mountain to non-mountain), gains +20% Combat Strength and knocks enemies back (Heavy Charge)"
+            }
+        ]
+    },
+    "celts": {
+        "country": "Celts",
+        "leader": "Boudicca",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Druidic Lore",
+                "value": "+1 Faith per city with an adjacent unimproved Forest. Bonus increases to +2 Faith in Cities with 3 or more adjacent unimproved Forest tiles."
+            },
+            {
+                "name": "Ceilidh Hall",
+                "value": "Unique building of the Celtic civilization. Requires Amphitheater. Replaces Opera House. (+3 Culture)"
+            },
+            {
+                "name": "Pictish Warrior",
+                "value": "+50% vs Mounted/Mounted ranged units, 100% faith from kills."
+            }
+        ]
+    },
+    "chinese": {
+        "country": "China",
+        "leader": "Wu Zetian",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Art of War",
+                "value": "The Great General combat bonus is increased by 15%, and their spawn rate is increased by 50%."
+            },
+            {
+                "name": "Chu-Ko-Nu",
+                "value": "A Chinese unique ranged unit. Replaces the Crossbowman."
+            },
+            {
+                "name": "Paper Maker",
+                "value": "Unique building of the Chinese civilization. Replaces the Library."
+            }
+        ]
+    },
+    "denmark": {
+        "country": "Denmark",
+        "leader": "Harald Bluetooth",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Viking Fury",
+                "value": "Also gives +1 production on fish tiles."
+            },
+            {
+                "name": "Berserker",
+                "value": "Unique unit of the Danish civilization. Replaces the Longswordsman. Requires Iron."
+            },
+            {
+                "name": "Longship",
+                "value": "Replaces Trireme. +2 movement, transfers movement to embarked units on the same tile"
+            }
+        ]
+    },
+    "egypt": {
+        "country": "Egypt",
+        "leader": "Ramesses II",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Monument Builders",
+                "value": "+15% Production when building Wonders"
+            },
+            {
+                "name": "Burial Tomb",
+                "value": "Egyptian unique ranged mounted unit. Replaces the Chariot Archer."
+            },
+            {
+                "name": "War Chariot",
+                "value": "Unique building of the Egyptian civilization. Requires Shrine. Replaces the Temple."
+            }
+        ]
+    },
+    "england": {
+        "country": "England",
+        "leader": "Elizabeth",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Sun Never Sets",
+                "value": "+2 Movement for all naval units. Receives 1 extra Spy."
+            },
+            {
+                "name": "Longbowman",
+                "value": "Unique ranged unit of the English civilization. Replaces the Crossbowman."
+            },
+            {
+                "name": "Ship of the Line",
+                "value": "Unique ranged naval unit of the English civilization. Replaces the Frigate. Requires Iron. 30 Ranged Combat (from 35), 25 Melee (from 30)"
+            }
+        ]
+    },
+    "ethiopia": {
+        "country": "Ethiopia",
+        "leader": "Haile Selassie",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Spirit of Adwa",
+                "value": "Combat bonus (+20%) when fighting units from a Civilization with more Cities than Ethiopia."
+            },
+            {
+                "name": "Stele",
+                "value": "Unique building of the Ethiopian civilization. Replaces the Monument. Available right from the start of the game."
+            },
+            {
+                "name": "Mehal Sefari",
+                "value": "Unique unit of the Ethiopian civilization. Replaces the Rifleman."
+            }
+        ]
+    },
+    "finland": {
+        "country": "Finland",
+        "leader": "Mannerheim",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Finnish Mobility",
+                "value": "All Melee and Mounted Units have a 50% increased flanking bonus. +1 Culture from unimproved forest tiles."
+            },
+            {
+                "name": "Sissi",
+                "value": "Replaces Machine Gun. 3 movement, ignores terrain cost, 50% bonus against armored."
+            },
+            {
+                "name": "Sauna",
+                "value": "Replaces Shrine: +2 culture from Lakes, no maintenance, units trained in cities with a Sauna heal +10 health in friendly lands."
+            }
+        ]
+    },
+    "france": {
+        "country": "France",
+        "leader": "Napoleon",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "City of Light",
+                "value": "+1 Culture in the Capital. +15 additional Culture in the Capital after the discovery of Acoustics. Theming bonuses in capital doubled."
+            },
+            {
+                "name": "Chateau",
+                "value": "Cannot be built on a resource tile. Receives +2 Science and +1 Science at the Free Thought policy in addition to its regular yields."
+            },
+            {
+                "name": "Musketeer",
+                "value": "Unique front-line unit of the French civilization. Replaces the Musketman."
+            }
+        ]
+    },
+    "franks": {
+        "country": "Franks",
+        "leader": "Charlemagne",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Holy Roman Empire",
+                "value": "+1 Faith from Farms."
+            },
+            {
+                "name": "Mead Hall",
+                "value": "Replaces Colosseum. +3 Happiness, +1 Culture"
+            },
+            {
+                "name": "Seaxman",
+                "value": "Replaces Longswordsman. Available at Chivalry. 22 Strength, Cover I, Amphibious."
+            }
+        ]
+    },
+    "gaul": {
+        "country": "Gaul",
+        "leader": "Vercingetorix",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Oppidum of Bribacte",
+                "value": "Start with a Murus Gallicus"
+            },
+            {
+                "name": "Noble Swordsmen",
+                "value": "Replaced the Longswordsman. 20 strength, +33% combat bonus when attacking and +50% combat strength in forests, does not require Iron"
+            },
+            {
+                "name": "Murus Gallicus",
+                "value": "Replaces the Wall. Slightly cheaper (44 hammers vs 50) and better (+6 defence vs 5). +1 Production and +1 Happiness, with an additional Production at Metal Casting."
+            }
+        ]
+    },
+    "germany": {
+        "country": "Germany",
+        "leader": "Bismarck",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Furor Teutonicus",
+                "value": "+1 Science and Production from Workshops, Windmills, Factories and Hydro Plants. 33% extra engineer generation"
+            },
+            {
+                "name": "Hanse",
+                "value": "Unique building of the German civilization. Requires Market. Replaces the Bank."
+            },
+            {
+                "name": "Panzer",
+                "value": "Unique armored unit of the German civilization. Replaces the Tank. Requires Oil."
+            }
+        ]
+    },
+    "golden_horde": {
+        "country": "Golden Horde",
+        "leader": "Batu Khan",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Golden Conquest",
+                "value": "Receive a free Great Artist upon completing a Jarliq in a city."
+            },
+            {
+                "name": "Ulan",
+                "value": "Replaces Pikeman. Mounted unit, 16 strength, 4 movement, Ambush Formation I, no penalty against cities. Requires Horses"
+            },
+            {
+                "name": "Jarliq",
+                "value": "Replaces Courthouse. Requires Writing. Additionally provides +3 gold and +3 science. No maintenance cost."
+            }
+        ]
+    },
+    "goths": {
+        "country": "Goths",
+        "leader": "Alaric I",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Drauhtinon",
+                "value": "Melee and gunpowder have +1 Movement. 33% combat bonus against barbarians. Upon defeating a barbarian inside a camp, earn 25 Gold and they join your side."
+            },
+            {
+                "name": "Gadrauht",
+                "value": "Replaces Longswordsman. 22 Strength, slightly cheaper. Moves along enemy roads as if they were friendly. Doesn’t require iron."
+            },
+            {
+                "name": "Harjis",
+                "value": "Available at Mining. Must be adjacent to a luxury resource and cannot be next to another Harji or on resources. Provides +1 Production. Provides +1 Production upon the discovery of Iron Working, Gunpowder and Dynamite."
+            }
+        ]
+    },
+    "greece": {
+        "country": "Greece",
+        "leader": "Pericles",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Hellenic League",
+                "value": "City-State Influence degrades at half and recovers at twice the normal rate."
+            },
+            {
+                "name": "Odeon",
+                "value": "+4 Culture, +1 Gold and +1 Writer slot (replaces Amphitheater)."
+            },
+            {
+                "name": "Hoplite",
+                "value": "A Greek unique front-line unit. Replaces the Spearman."
+            }
+        ]
+    },
+    "hittites": {
+        "country": "Hittites",
+        "leader": "Muwatallis",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Bronze and Iron",
+                "value": "+1 Gold from Mines. Starts with Mining."
+            },
+            {
+                "name": "Lion’s Gate",
+                "value": "Replaces Walls. +2 Gold and +2 Culture."
+            },
+            {
+                "name": "Heavy Chariot",
+                "value": "Replaces Chariot Archer. 3 Movement, 10 Ranged Strength, 10 Melee (can’t melee attack). +20% strength while defending. Requires Horses"
+            }
+        ]
+    },
+    "huns": {
+        "country": "Huns",
+        "leader": "Attila",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Scourge of God",
+                "value": "Raze Cities at double speed. Borrow City names from other in-game Civs. Start with Animal Husbandry technology. +1 Production per Pasture."
+            },
+            {
+                "name": "Qara U’y",
+                "value": "Replaces Stable. +1 faith from Horses, provides +2 Horses (like Recycling Center)"
+            },
+            {
+                "name": "Horse Archer",
+                "value": "Unique Hunnic early ranged mounted unit. Replaces the Chariot Archer. Requires Horses"
+            }
+        ]
+    },
+    "hungary": {
+        "country": "Hungary",
+        "leader": "András II",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Verszerzodes",
+                "value": "+1 Production and Culture from Defensive Buildings."
+            },
+            {
+                "name": "Black Arquebusier",
+                "value": "Replaces Musketman. 24 Melee and Ranged Strength, can both melee and ranged attack, must set up to ranged attack. Starts with Accuracy 1."
+            },
+            {
+                "name": "Orszaggyules",
+                "value": "Replaces Palace. In addition to the regular effects of the palace, a second one may be constructed to move the capital, and the original can be sold and moved as well. The capital is located in the last city to build an Orszaggyules. Provides +25% Great Person generation, +10% production towards buildings, and +3 Culture, Food and Production at Chivalry. Requires Mathematics to be constructed."
+            }
+        ]
+    },
+    "inca": {
+        "country": "Inca",
+        "leader": "Pachacuti",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Great Andean Road",
+                "value": "Units ignore terrain costs when moving into any tile with Hills. No maintenance costs for improvements in Hills; half cost elsewhere."
+            },
+            {
+                "name": "Terrace Farm",
+                "value": "Unique improvement of the Incan civilization. Requires Construction."
+            },
+            {
+                "name": "Slinger",
+                "value": "Unique ranged unit of the Incan civilization. Replaces the Archer. 5 Melee Strength (up from 4)."
+            }
+        ]
+    },
+    "india": {
+        "country": "India",
+        "leader": "Gandhi",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Population Growth",
+                "value": "Unhappiness from number of Cities doubled, Unhappiness from number of Citizens halved."
+            },
+            {
+                "name": "Mughal Fort",
+                "value": "Unique building of the Indian civilization. Requires Walls. Replaces the Castle. +4 Culture, +2 Happiness, +2 Tourism at Flight"
+            },
+            {
+                "name": "War Elephant",
+                "value": "Unique ranged mounted unit of the Indian civilization. Replaces the Chariot Archer. +50% strength against melee units."
+            }
+        ]
+    },
+    "indonesia": {
+        "country": "Indonesia",
+        "leader": "Gajah Mada",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Spice Islanders",
+                "value": "The first 3 costal cities each provide 2 unique Luxury Resources (and can never be razed)."
+            },
+            {
+                "name": "Candi",
+                "value": "Unique building of the Indonesian civilization. Replaces the Garden. May be built in all cities."
+            },
+            {
+                "name": "Kris Swordsman",
+                "value": "Unique unit of the Indonesian civilization. Replaces the Swordsman. Requires Iron. 15 Combat Strength (up from 14) and bad outcomes removed."
+            }
+        ]
+    },
+    "iroquois": {
+        "country": "Iroquois",
+        "leader": "Hiawatha",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "The Great Warpath",
+                "value": "Units move through Forest and Jungle in friendly territory as if they were Roads. These tiles can be used to establish 20xCityConnection5 City Connections upon researching The Wheel. Caravans move along Forest and Jungle as if they were Roads."
+            },
+            {
+                "name": "Longhouse",
+                "value": "+10% production (like regular Workshop), also provides +1 Production from Jungle tiles, costs the same and available at Iron Working."
+            },
+            {
+                "name": "Mohawk Warrior",
+                "value": "Unique front-line unit of the Iroquois civilization. Replaces the Swordsman. Has 15 Combat Strength (up from 14)"
+            }
+        ]
+    },
+    "israel": {
+        "country": "Israel",
+        "leader": "David",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "The Promised Land",
+                "value": "+1 Culture from Pastures"
+            },
+            {
+                "name": "Maccabee",
+                "value": "Replaces Swordsman. Much cheaper. On kill, 100% of the enemy units strength is added as faith."
+            },
+            {
+                "name": "Yeshiva",
+                "value": "Replaces the Temple. More expensive (80 hammers vs 67), but provides +1 food and production."
+            }
+        ]
+    },
+    "italy": {
+        "country": "Italy",
+        "leader": "Vittorio Emmanuel III",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Rinascimento",
+                "value": "+1 Culture from Specialists. +1 Happiness per 4 Policies."
+            },
+            {
+                "name": "Pittore",
+                "value": "Replaces Great Artist. Golden Ages started by them are 9 turns instead of 6 (on quick speed). Scales to 14 turns with Chichen Itza/Freedom 3, 19 with both."
+            },
+            {
+                "name": "Basilica",
+                "value": "Replaces Museum. Available at Industrialization, +20% Great Person Rate, 2 Artist Specialist slots, +2 Great Artist points per turn."
+            }
+        ]
+    },
+    "japan": {
+        "country": "Japan",
+        "leader": "Oda Nobunaga",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Bushido",
+                "value": "Units fight as though they were at full strength even when damaged. +1 Culture from each Fishing Boat and +2 Culture from Atolls."
+            },
+            {
+                "name": "Dojo",
+                "value": "Replaces Barracks. +2 science. +10% combat strength for land units built in this city."
+            },
+            {
+                "name": "Samurai",
+                "value": "Unique unit of the Japanese civilization. Replaces the Longswordsman. Requires Iron."
+            }
+        ]
+    },
+    "jerusalem": {
+        "country": "Jerusalem",
+        "leader": "Fulk V",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "The Holy Land",
+                "value": "+1 Faith from Luxury Resources."
+            },
+            {
+                "name": "Crusader",
+                "value": "Replaces Longswordsman. 17 Strength, slightly cheaper to produce. Available at Theology. Receives Faith from kills and has 20% combat bonus outside friendly territory."
+            },
+            {
+                "name": "Outremer",
+                "value": "Replaces Courthouse. +2 Culture, +2 Happiness, +2 Faith."
+            }
+        ]
+    },
+    "kongo": {
+        "country": "Kongo",
+        "leader": "Mvemba a Nzinga",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Heart of Africa",
+                "value": "Borders grow 33% faster."
+            },
+            {
+                "name": "Ngao Mbeba",
+                "value": "Replaces Swordsman. 15 strength, 100% cover bonus. Cannot attack."
+            },
+            {
+                "name": "Slave Market",
+                "value": "Replaces Colosseum. Costs 80 production, subtracts 1 population from every city. Provides +5 production and +8 gold, with an additional +5 production at Industrialization. Does not provide any happiness."
+            }
+        ]
+    },
+    "khmer": {
+        "country": "Khmer",
+        "leader": "Suryavarman II",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Grand Baray of Angkor",
+                "value": "Receive a free Baray in the capital."
+            },
+            {
+                "name": "Ballista Elephant",
+                "value": "Replaces Crossbowman, 17 ranged and melee strength, 2 moves 2 range, ranged unit, Feared Elephant promo"
+            },
+            {
+                "name": "Baray",
+                "value": "Replaces Garden. In addition to usual effects: 10% of food is carried over after a new citizen is born, +2 faith +2 food at Drama and Poetry"
+            }
+        ]
+    },
+    "korea": {
+        "country": "Korea",
+        "leader": "Sejong",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Scholars of the Jade Hall",
+                "value": "+1 Science from Specialists, +1 Science from the Palace"
+            },
+            {
+                "name": "H’wacha",
+                "value": "Unique ranged unit of the Korean civilization. Replaces the Trebuchet."
+            },
+            {
+                "name": "Turtle Ship",
+                "value": "Unique naval unit of the Korean civilization. Replaces the Caravel."
+            }
+        ]
+    },
+    "lithuania": {
+        "country": "Lithuania",
+        "leader": "Vytautas",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Baltic Mythology",
+                "value": "Prophets are turned into Krivis, which cannot found a religion but can construct Sacred Groves. Can’t found a religion."
+            },
+            {
+                "name": "Pestininkas",
+                "value": "Replaces Pikeman, cheaper to train (40 hammers vs 60)"
+            },
+            {
+                "name": "Sacred Grove",
+                "value": "Provides +1 Food, Production, Culture, Science and Faith base, and an additional of each at Philosophy, Theology, Acoustics, Archaeology"
+            },
+            {
+                "name": "Vilnius Temple",
+                "value": "Behaves like a Grand Temple but you can build it without having a religion."
+            }
+        ]
+    },
+    "macedon": {
+        "country": "Macedon",
+        "leader": "Alexander",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Macedonian Discipline",
+                "value": "Barracks and Armories provide +1 Food and +1 Happiness. All Land units receive the Quick Study promotion. Receive a free Hetairoi at Horseback Riding."
+            },
+            {
+                "name": "Hetairoi",
+                "value": "Replaces Great General. 15 Combat Strength, requires 1 Horse, 5 Movement, General bonus provided to units with 2 Tiles. Receives Great Generals II, March, Charge and Heavy Charge promotions for free. Can upgrade to knight, but loses ability to make citadels"
+            },
+            {
+                "name": "Sarissophoroi",
+                "value": "Replaces Pikeman. Available at Philosophy instead of Civil Service. +100% combat strength against mounted units. 14 Strength."
+            }
+        ]
+    },
+    "madagascar": {
+        "country": "Madagascar",
+        "leader": "Ralambo",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Sacred Hills of Imerina",
+                "value": "+6 Culture and Faith from Holy Sites."
+            },
+            {
+                "name": "Mpiambina",
+                "value": "Replaces Inquisitor (after buying a Inquisitor). 1 Range Ranged Unit, 8 Strength melee and 14 Ranged. Receives 1 unique promotion after first combat."
+            },
+            {
+                "name": "Rova",
+                "value": "Replaces Walls. Provides an additional +1 Happiness and +3 Faith."
+            }
+        ]
+    },
+    "manchuria": {
+        "country": "Manchuria",
+        "leader": "Nurhaci",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Eight Banners",
+                "value": "All Manchu mounted units receive the Volley promotion (+50% combat strength against fortified units and cities) and cost no maintenance."
+            },
+            {
+                "name": "Canton Factory",
+                "value": "Replaces Bank. +35% Gold, +2 Gold, 2 Merchant Specialists, Cheaper to construct (67 vs 100 hammers)."
+            },
+            {
+                "name": "Qianlong Cavalry",
+                "value": "Replaces Cavalry. 34 Strength, 5 Movement, Great Generals"
+            }
+        ]
+    },
+    "maya": {
+        "country": "Maya",
+        "leader": "Pacal",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "The Long Count",
+                "value": "After researching Theology, receive a bonus Great Person at the end of every Maya Long Count calendar cycle (every 394 years). Each bonus person can only be chosen once."
+            },
+            {
+                "name": "Pyramid",
+                "value": "Unique building of the Mayan civilization. Replaces the Shrine."
+            },
+            {
+                "name": "Atlatlist",
+                "value": "Unique ranged unit of the Mayan civilization, available from the start of the game. Replaces the Archer."
+            }
+        ]
+    },
+    "mexico": {
+        "country": "Mexico",
+        "leader": "Benito Juarez",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Encomienda System",
+                "value": "Receives a free Worker at Pottery. City-States that are afraid of Mexico gain 10 Influence per turn when Mexico can tribute them but does not."
+            },
+            {
+                "name": "Ranchero",
+                "value": "Replaces Settler. Does not stop growth to produce."
+            },
+            {
+                "name": "Hacienda",
+                "value": "Replaces Windmill. Provides +1 Production on Luxuries, +1 Gold on Bonus Resources, and +1 Food on Strategic Resources."
+            }
+        ]
+    },
+    "mongolia": {
+        "country": "Mongolia",
+        "leader": "Genghis Khan",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Mongol Terror",
+                "value": "Combat Strength +30% when fighting City-State units or attacking a City-State itself. All mounted and armored units have +1 Movement"
+            },
+            {
+                "name": "Khan",
+                "value": "A Great Person, unique to the Mongolian civilization. Replaces the Great General."
+            },
+            {
+                "name": "Keshik",
+                "value": "The Mongolian unique ranged mounted unit. Replaces the Knight. Requires Horses. 18 Combat and Ranged Strength, 1 range (down from 2)."
+            }
+        ]
+    },
+    "morocco": {
+        "country": "Morocco",
+        "leader": "Ahmad al-Mansur",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Gateway To Africa",
+                "value": "Each trading partner will grant an additional +1 Gold / +1 Culture per era (3/1 ancient, 4/2 classical, 5/3 medieval, etc, per partner)."
+            },
+            {
+                "name": "Kasbah",
+                "value": "Unique improvement of the Moroccan civilization. Requires Chivalry. +2 food, +1 production, +1 gold"
+            },
+            {
+                "name": "Berber Cavalry",
+                "value": "Unique unit of the Moroccan civilization. Replaces the Cavalry. Requires Horses."
+            }
+        ]
+    },
+    "netherlands": {
+        "country": "Netherlands",
+        "leader": "William",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Dutch East India Company",
+                "value": "+1 Happiness per unique Luxury in the Empire and +1 Gold from Luxury resource tiles."
+            },
+            {
+                "name": "Polder",
+                "value": "Unique improvement of the Dutch civilization. Requires Guilds."
+            },
+            {
+                "name": "Sea Beggar",
+                "value": "Coastal Raiders 1 Promotion, Boarding Party 1, Supply Promotion and the Prize Ships Promotion (in total)"
+            }
+        ]
+    },
+    "normandy": {
+        "country": "Normandy",
+        "leader": "William the Conqueror",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Castle Builders",
+                "value": "+10% combat strength outside of friendly territory. All cities receive +5 Defense."
+            },
+            {
+                "name": "Motte and Bailey",
+                "value": "Available at Engineering. +1 Food, +1 Production. +2 Culture at Flight. Cannot be built adjacent to each other. Must be next to a luxury resource. +25% Combat Strength on this tile."
+            },
+            {
+                "name": "Pedite",
+                "value": "Replaces Swordsman. 15 Strength, Shock I, can construct Motte and Baileys."
+            }
+        ]
+    },
+    "norway": {
+        "country": "Norway",
+        "leader": "Harald Hardrada",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Nordic Bounty",
+                "value": "+1 Food and +1 Production from Snow. +1 Production from Tundra."
+            },
+            {
+                "name": "Ski Infantry",
+                "value": "Replaces Great War Infantry. 50 Strength, Drill I, II, and Ski Infantry Promotion."
+            },
+            {
+                "name": "Stave Church",
+                "value": "Replaces Temple. Decreased cost (50 hammers vs 67), requires no maintenance. +1 Faith from Coastal Resources."
+            }
+        ]
+    },
+    "nubia": {
+        "country": "Nubia",
+        "leader": "Amanitore",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Ta-Seti",
+                "value": "+20% Production towards ranged and recon units, +1 Food from Floodplains"
+            },
+            {
+                "name": "Apedemak’s Bow",
+                "value": "Replaces Scout, 5 Ranged and 5 Melee Strength, has 3 Range, is considered a Recon Unit, costs same as a Warrior."
+            },
+            {
+                "name": "Blast Furnace",
+                "value": "Replaces Forge, can be built anywhere, cheaper, additionally provides +2 culture from Iron and gives Accuracy 1 to ranged, siege and recon units."
+            }
+        ]
+    },
+    "ottomans": {
+        "country": "Ottomans",
+        "leader": "Suleiman",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Millets",
+                "value": "Each city gets +1 Happiness for each Religion in that city, +33 religious bonus in the capital."
+            },
+            {
+                "name": "Sipahi",
+                "value": "Unique mounted unit of the Ottoman Empire. Replaces the Lancer. Requires Horses. Available at Gunpowder and costs 20% less Production to train."
+            },
+            {
+                "name": "Janissary",
+                "value": "Unique front-line unit of the Ottoman Empire. Replaces the Musketman. Costs 20% less Production to train."
+            }
+        ]
+    },
+    "papal_state": {
+        "country": "Papal State",
+        "leader": "Urban II",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "The Holy See",
+                "value": "+1 of every yield from Holy Sites. Receives 2 free delegates."
+            },
+            {
+                "name": "Swiss Guard",
+                "value": "Replaces Landsknecht. Does not require the Mercenary Army policy, but still must be purchased. Receives Faith and Gold from kills, extra Gold from pillaging and has Medic I and II promotions."
+            },
+            {
+                "name": "St. Peter’s Basilica",
+                "value": "Replaces Grand Temple - Additionally provides a free Cathedral and Great Prophet."
+            }
+        ]
+    },
+    "persia": {
+        "country": "Persia",
+        "leader": "Darius I",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Achaemenid Legacy",
+                "value": "Golden Ages last 50% longer. During a Golden Age, units receive +1 Movement and a +10% Combat Strength bonus."
+            },
+            {
+                "name": "Immortal",
+                "value": "The Persian unique front-line unit. Replaces the Spearman."
+            },
+            {
+                "name": "Satrap's Court",
+                "value": "Unique building of the Persian civilization. Requires Market. Replaces the Bank."
+            }
+        ]
+    },
+    "phoenician": {
+        "country": "Phoenician",
+        "leader": "Hiram",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Skillful Traders",
+                "value": "Sea Trade routes have an 50% increase in range. Start with a Square Sail Ship."
+            },
+            {
+                "name": "Square Sail Ship",
+                "value": "Replaces the Trireme. Can enter deep ocean and is slightly cheaper (25 hammers vs 30)."
+            },
+            {
+                "name": "Trade Harbour",
+                "value": "Replaces the Harbor. In addition it provides +15% Production towards Naval Units and +1 Production to Sea Resources."
+            }
+        ]
+    },
+    "poland": {
+        "country": "Poland",
+        "leader": "Casimir III",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Solidarity",
+                "value": "10% cheaper Social Policies."
+            },
+            {
+                "name": "Ducal Stable",
+                "value": "Unique building of the Polish civilization. Replaces the Stable."
+            },
+            {
+                "name": "Winged Hussar",
+                "value": "Unique unit of the Polish civilization. Replaces the Lancer. Requires Horses."
+            }
+        ]
+    },
+    "polynesia": {
+        "country": "Polynesia",
+        "leader": "Kamehameha",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Wayfinding",
+                "value": "All embarked units also have +1 Movement and extra defense"
+            },
+            {
+                "name": "Moai",
+                "value": "Unique improvement of the Polynesian civilization. Requires Construction."
+            },
+            {
+                "name": "Maori Warrior",
+                "value": "Unique unit of the Polynesian civilization. Replaces the Warrior. Available from the start of the game."
+            }
+        ]
+    },
+    "portugal": {
+        "country": "Portugal",
+        "leader": "Maria I",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Mare Clausum",
+                "value": "Resource diversity grants twice as much Gold for Portugal in Trade Routes. 25% reduction cost for Caravans and Cargo Ships."
+            },
+            {
+                "name": "Feitoria",
+                "value": "Replaces Harbor. +1 Gold from Coastal Resources, +15% Production for Naval Units. Slightly cheaper to build and doesn’t cost maintenance."
+            },
+            {
+                "name": "Nau",
+                "value": "Unique unit of the Portuguese civilization. Replaces the Caravel."
+            }
+        ]
+    },
+    "prussia": {
+        "country": "Prussia",
+        "leader": "Frederick",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Army with a State",
+                "value": "All Prussian trained land units may receive unique Prussian Promotions upon leveling up. Paradropping units can’t pick the extra attack promotion. +50% production and food from internal trade routes."
+            },
+            {
+                "name": "Totenkopf Hussar",
+                "value": "Replaces Cavalry. 34 Strength, 5 Movement, Heals 25 HP upon killing an enemy unit."
+            },
+            {
+                "name": "Landwehr",
+                "value": "Replaces Rifleman. 34 Strength, available at Military Science, starts with Blitz and Quick Study. Has unique promotions."
+            }
+        ]
+    },
+    "romania": {
+        "country": "Romania",
+        "leader": "Carol I",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Nihil Sine Deo",
+                "value": "+1 Culture from Shrines and Temples."
+            },
+            {
+                "name": "Vanator",
+                "value": "Replaces Gatling Gun. Has 31 Strength and 2 range."
+            },
+            {
+                "name": "Painted Monastery",
+                "value": "Has a Great Work of Art slot, +2 Faith. Doesn't have to built on freshwater. Replaces Garden."
+            }
+        ]
+    },
+    "rome": {
+        "country": "Rome",
+        "leader": "Augustus Caesar",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "The Glory of Rome",
+                "value": "+25% Production towards any buildings that already exist in the Capital."
+            },
+            {
+                "name": "Ballista",
+                "value": "Unique siege unit of the Roman civilization. Replaces the Catapult. Has Indirect Fire."
+            },
+            {
+                "name": "Legion",
+                "value": "Unique front-line unit of the Roman civilization. Replaces the Swordsman. Requires Iron."
+            }
+        ]
+    },
+    "russia": {
+        "country": "Russia",
+        "leader": "Catherine",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Siberian Riches",
+                "value": "Strategic Resources provide +1 Production, and Horse, Iron and Uranium Resources provide double quantity."
+            },
+            {
+                "name": "Krepost",
+                "value": "Unique building of the Russian civilization. Replaces the Barracks."
+            },
+            {
+                "name": "Cossack",
+                "value": "Unique unit of the Russian civilization. Replaces the Cavalry. Requires Horses."
+            }
+        ]
+    },
+    "shoshone": {
+        "country": "Shoshone",
+        "leader": "Pocatello",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Great Expanse",
+                "value": "Founded cities start with 4 additional tiles (from 8). Units receive a 15% combat bonus when fighting within their own territory."
+            },
+            {
+                "name": "Pathfinder",
+                "value": "Unique unit of the Shoshone civilization. Replaces the Scout. Available right from the start of the game."
+            },
+            {
+                "name": "Comanche Riders",
+                "value": "Unique unit of the Shoshone civilization. Replaces Cavalry. Requires Horses."
+            }
+        ]
+    },
+    "siam": {
+        "country": "Siam",
+        "leader": "Ramkhamhaeng",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Father Governs Children",
+                "value": "Food, Culture and Faith from friendly City-States increased by 50%."
+            },
+            {
+                "name": "Wat",
+                "value": "Unique building of the Siamese civilization. Requires Library. Replaces the University."
+            },
+            {
+                "name": "Naresuan’s Elephant",
+                "value": "Unique mounted unit of the Siamese civilization. Replaces the Knight."
+            }
+        ]
+    },
+    "sioux": {
+        "country": "Sioux",
+        "leader": "Sitting Bull",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Dwellers of the Plains",
+                "value": "+15% Combat Strength in Plains."
+            },
+            {
+                "name": "Buffalo Hunter",
+                "value": "Replaces Composite Bowman. 8 Melee Strength, 13 Ranged Strength. Can construct Tipis."
+            },
+            {
+                "name": "Tipi",
+                "value": "Can only be constructed on flat plains or flatland deer/bison. Must be adjacent to luxuries. Provides +1 Food, +1 Faith. Bonus +1 Culture if adjacent to a city, +1 Gold if adjacent to a river. Provides +1 Food at Civil Service and +1 Faith at Theology. Requires Trapping."
+            }
+        ]
+    },
+    "songhai": {
+        "country": "Songhai",
+        "leader": "Askia",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "River Warlord",
+                "value": "Receive triple Gold from Barbarian encampments and pillaging Cities. Land units gain the Amphibious promotion, strengthening them while embarked. Units ignore terrain costs while moving along or across rivers."
+            },
+            {
+                "name": "Mud Pyramid Mosque",
+                "value": "Unique building of the Songhai civilization. Requires Shrine. Replaces the Temple."
+            },
+            {
+                "name": "Mandekalu Cavalry",
+                "value": "The Songhai civilization's unique mounted unit. Replaces the Knight. Requires Horses."
+            }
+        ]
+    },
+    "spain": {
+        "country": "Spain",
+        "leader": "Isabella",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Seven Cities of Gold",
+                "value": "Grants 100 gold per Natural Wonder discovered (down from 500 gold for first finder and 100 gold otherwise)."
+            },
+            {
+                "name": "Plaza de Toros",
+                "value": "Replaces Circus. +2 Culture, may also be built with an improved source of Cows."
+            },
+            {
+                "name": "Tercio",
+                "value": "Unique Renaissance Era unit of the Spanish civilization. Replaces the Musketman."
+            }
+        ]
+    },
+    "sumeria": {
+        "country": "Sumeria",
+        "leader": "Gilgamesh",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Cradle of Civilization",
+                "value": "+2 Culture from every city upon the discovery of Drama and Poetry."
+            },
+            {
+                "name": "Ziggurat",
+                "value": "Replaces Temple. +2 Faith, +5% Science."
+            },
+            {
+                "name": "Phalanx",
+                "value": "Replaces Spearman. Available at Mining. 11 Strength, +50% Flanking bonus, slightly cheaper to produce."
+            }
+        ]
+    },
+    "sweden": {
+        "country": "Sweden",
+        "leader": "Gustavus Adolphus",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Nobel Prize",
+                "value": "+20% Great Person points in all cities."
+            },
+            {
+                "name": "Carolean",
+                "value": "Replaces Musketman. 24 Strength, free March promotion"
+            },
+            {
+                "name": "Falu Gruva",
+                "value": "Replaces Ironworks. +1 Production from hills in this city. 6 Tourism at Flight"
+            }
+        ]
+    },
+    "tibet": {
+        "country": "Tibet",
+        "leader": "Ngawang Lobsang Gyatso",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Eightfold Path to Nirvana",
+                "value": "Cannot train Settler or Conquistadors. All cities receive a free Stupa that provides +1 Culture, Science, Production, Gold and Faith."
+            },
+            {
+                "name": "Dalai Lama",
+                "value": "Replaces Great Prophet. No vision penalty and can spread religion 1 extra time."
+            },
+            {
+                "name": "Monastery",
+                "value": "Can only be built on hills. Provides +2 Faith, +1 additional Faith at Theology. +1 Culture for each adjacent mountain. Can be built on forest and jungle without removing them."
+            }
+        ]
+    },
+    "timurids": {
+        "country": "Timurids",
+        "leader": "Timur",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Ulugh Beg’s Observatory",
+                "value": "+5 Combat Strength, +10% Science, Production, Gold and Culture in the original capital. These bonuses are terminated if the original capital is lost."
+            },
+            {
+                "name": "Marathi Rider",
+                "value": "Medieval Air unit, available at Chivalry. Replaces Horsemen. Requires 1 horse, has 4 range, and 21 combat strength. Uses air mechanics and promotions."
+            },
+            {
+                "name": "Serai",
+                "value": "Replaces Caravansary. +1 gold per 3 pop, allows units to airlift between cities with Serais and increases air unit capacity by 1."
+            }
+        ]
+    },
+    "ukraine": {
+        "country": "Ukraine",
+        "leader": "Yaroslav I",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Principalities of the Rus",
+                "value": "+20% Gold per turn from City Connections. +1 Gold from Specialists."
+            },
+            {
+                "name": "Tachanka",
+                "value": "Replaces Gatling Gun. 30 Melee Strength, 30 Ranged Strength, 2 Range, 4 Moves. Requires Horses, is considered a Mounted Ranged unit. Loses all movement upon entering rough terrain. "
+            },
+            {
+                "name": "Knyaz Court",
+                "value": "Replaces Market. +2 Gold, +25% gold, Receive 20 Gold per Knyaz Court when a Great Person is consumed."
+            }
+        ]
+    },
+    "venice": {
+        "country": "Venice",
+        "leader": "Enrico Dandolo",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Serenissima",
+                "value": "Can train regular settlers. Sea trade routes cannot be plundered. Receives a Great Merchant upon the discovery of Compass. Cannot train Conquistadors."
+            },
+            {
+                "name": "Merchant of Venice",
+                "value": "A unique Great Person of the Venetian civilization, specialized in Trading. Replaces the Great Merchant."
+            },
+            {
+                "name": "Grand Canal",
+                "value": "Replaces East India Company. Provides +2 Trade Routes, +25% Gold and +4 Gold. Provides increased gold from trade routes."
+            }
+        ]
+    },
+    "vietnam": {
+        "country": "Vietnam",
+        "leader": "Hai Ba Trung",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Tam Giao",
+                "value": "+2 Food, +1 Production from Marsh. +1 Faith from Jungle."
+            },
+            {
+                "name": "Viet Cong",
+                "value": "Replaces Infantry. 70 Strength, is Invisible except to adjacent units and can traverse mountains, taking regular damage if they end turn on them."
+            },
+            {
+                "name": "Vo Khi",
+                "value": "Replaces Armory. Available at Metal Casting, +1 Food, +1 Culture and +1 Production from Marsh. +1 Culture from Jungle. All melee units trained in a city with a Vo Khi receive the Woodsman promotion. Doesn’t require Barracks."
+            }
+        ]
+    },
+    "zulu": {
+        "country": "Zulu",
+        "leader": "Shaka",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "Iklwa",
+                "value": "Melee units cost 50% less maintenance. All units require 25% less experience to earn their next promotion"
+            },
+            {
+                "name": "Ikanda",
+                "value": "Unique building of the Zulu civilization. Replaces the Barracks."
+            },
+            {
+                "name": "Impi",
+                "value": "Unique unit of the Zulu civilization. Replaces the Pikeman."
+            }
+        ]
+    }
+}
