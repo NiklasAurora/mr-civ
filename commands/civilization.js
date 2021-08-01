@@ -15,6 +15,12 @@ const randomize = (args) => {
         }
     }
 
+    if (args != "base" && args != "lekmod") {
+        let search = args[0].toLowerCase();
+
+        civ = civs[search];
+    }
+
     return civ;
 };
 
