@@ -86,7 +86,7 @@
             },
             {
                 "name": "Gaucho",
-                "value": "Replaces Horseman (and upgrades to Cavalry), but available at Gunpowder. 5 Movement, 20 Strength. Identical Production cost to the Knight. +200% Combat Bonus when Flanking. May Withdraw from Melee attacks (50% chance). Capable of building Pastures and Farms in 2 turns."
+                "value": "Replaces Knight (and upgrades to Cavalry), but available at Chivalry. 5 Movement, 20 Strength. Identical Production cost to the Knight. +200% Combat Bonus when Flanking. May Withdraw from Melee attacks (50% chance). Capable of building Pastures and Farms in 2 turns."
             },
             {
                 "name": "Ocupada Estable",
@@ -272,7 +272,7 @@
         "uniques": [
             {
                 "name": "Chemist",
-                "value": "Upon the discovery of Chemistry, expending a Great Artist improves the yield of Mines with +1 Production and expending a Great Writer improves them with +1 Food instead. [To confirm: These yields are swapped, do not stack and only work on artists and writers, not any unique or normal other Great People]"
+                "value": "Upon the discovery of Banking (previously Chemistry), expending a Great Artist improves the yield of Mines with +1 Production and expending a Great Writer improves them with +1 Food instead. [To confirm: These yields are swapped, do not stack and only work on artists and writers, not any unique or normal other Great People]"
             },
             {
                 "name": "Comparsa Folklorica",
@@ -437,13 +437,13 @@
         ]
     },
     "chile": {
-        "country": "Chile ",
+        "country": "Chile",
         "leader": "O’ Higgens",
         "extended": true,
         "uniques": [
             {
                 "name": "By Reason or by Force",
-                "value": "Fishing Boats and Dry Docks instantly claim all surrounding neutral tiles. Receive a free Great Admiral at the Compass technology. Melee & Gunpowder units reduce nearby enemy Naval units' and Naval Melee units reduce nearby enemy Land units’ combat strength by 25%."
+                "value": "Fishing Boats and Dry Docks instantly claim all surrounding neutral tiles. Recieves 2 free Work Boats at Optics as well as a free Great Admiral at the Compass technology. Melee & Gunpowder units reduce nearby enemy Naval units' and Naval Melee units reduce nearby enemy Land units’ combat strength by 25%."
             },
             {
                 "name": "Cooperative",
@@ -481,7 +481,7 @@
         "uniques": [
             {
                 "name": "Cuba Pride (or something)",
-                "value": "For every other Civilization you have met, receive +1 Culture for every 8 Culture their Capital generates each turn. Upon selecting your first Tenet in an Ideology, immediately receive 2 Guerrilleros. Receive 50% less unhappiness from ideology pressure. [Culture bonus does not take % modifiers into account]"
+                "value": "For every other Civilization you have met, receive +1 Culture for every 5 Culture their Capital generates each turn. Upon selecting your first Tenet in an Ideology, immediately receive 2 Guerrilleros. Receive 50% less unhappiness from ideology pressure. [Culture bonus does not take % modifiers into account]"
             },
             {
                 "name": "Guerrillero",
@@ -489,7 +489,7 @@
             },
             {
                 "name": "Dance Hall",
-                "value": "Replaces the Opera house. +1 Happiness, +15% production towards military units and +4 Culture if the Great work of Music is filled [updates every turn roll]."
+                "value": "Replaces the Opera house. 25% cheaper to construct. +1 Happiness, +15% production towards military units and +4 Culture if the Great work of Music is filled [updates every turn roll]."
             }
         ]
     },
@@ -565,7 +565,7 @@
             },
             {
                 "name": "Mehal Sefari",
-                "value": "Unique unit of the Ethiopian civilization. Replaces the Rifleman. Near Capital Combat Bonus increased to 50% (from 30%). Bonus falloff increased to -5% per tile (from -3% per tile)."
+                "value": "Unique unit of the Ethiopian civilization. Replaces the Rifleman. Combat Strength slightly increased from 34 to 35. Near Capital Combat Bonus increased to 50% (from 30%). Bonus falloff increased to -5% per tile (from -3% per tile)."
             }
         ]
     },
@@ -846,7 +846,7 @@
             },
             {
                 "name": "Fenian",
-                "value": "Replaces Rifleman. Significantly cheaper (110 vs. 150 Production). Gains a +20% Combat Bonus in friendly territory."
+                "value": "Replaces Rifleman. Significantly cheaper (110 vs. 150 Production). Combat Strength increased from 34 to 40."
             },
             {
                 "name": "Irish Pub",
@@ -960,7 +960,7 @@
             },
             {
                 "name": "Ballista Elephant",
-                "value": "Replaces Crossbowman. 14 Ranged Strength (vs. 18), 20 Melee (vs. 13), 3 Moves, 2 Range, classified as a Mounted Ranged unit. Arrives with the Feared Elephant promotion."
+                "value": "Replaces Trebuchet (available at Machinery, upgrades from Catapult). 20 Ranged Strength (vs. 16), 3 Moves, 2 Range, classified as a Mounted Ranged unit. Arrives with the Feared Elephant promotion."
             },
             {
                 "name": "Baray",
@@ -983,7 +983,7 @@
             },
             {
                 "name": "Coral Port",
-                "value": "Replaces Workshop. Yields less Production itself, but provides +2 Production from Coral, +1 Food from Fish, +1 Culture from Pearls and Crabs, and +2 Gold from Whales. Provides +1 Production from Hardwood, too."
+                "value": "Replaces Workshop. Yields the same Production as Workshop as well as +1 Food. Also provides +2 Production from Coral, +1 Culture from Fish, Pearls and Crabs, 2 Gold from Whales and +1 Production from Hardwood."
             }
         ]
     },
@@ -1093,7 +1093,7 @@
         "uniques": [
             {
                 "name": "Eight Banners",
-                "value": "All Manchu Mounted (and Armored) units receive the Volley promotion (+50% Combat Bonus vs. Fortified units and Cities) and require no Gold maintenance."
+                "value": "All Manchu Mounted (and Armored) units receive the Volley promotion (+50% Combat Bonus vs. Fortified units and Cities) and require no Gold maintenance. Stables are built twice as fast and yield +1 Gold"
             },
             {
                 "name": "Canton Factory",
@@ -1143,6 +1143,25 @@
             }
         ]
     },
+    "maurya": {
+        "country": "Maurya",
+        "leader": "Ashoka",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Inscriptions of the Dharma",
+                "value": "All non-air units receive a 15% Combat Penalty for attacking and a 15% Combat Bonus for defending. Non-Air Units heal every turn in your own territory."
+            },
+            {
+                "name": "Fast Worker",
+                "value": "Replaces the Worker. 25% Cheaper. Ignores terrain cost."
+            },
+            {
+                "name": "Pillar of Ashoka",
+                "value": "Replaces the Monument. Costs no maintenance. 50% Cheaper."
+            }
+        ]
+    },
     "mexico": {
         "country": "Mexico",
         "leader": "Benito Juarez",
@@ -1181,6 +1200,25 @@
             }
         ]
     },
+    "moors": {
+        "country": "Moors",
+        "leader": "Abd-ar-Rahman III",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Glory of Al-Andalus",
+                "value": "All Cities have a 30% Production boost towards buildings (except Wonders) in the Medieval Era, 15% Production bonus in Renaissance. [Updates cities every turn or on tech gain]"
+            },
+            {
+                "name": "Grenadine Cavalry",
+                "value": "Replaces the Lancer. Has no City Penalty, but also may not move after attacking and does not receive a mounted combat bonus. A ranged unit with 2 Range. 29 Ranged strength, 25 melee strength."
+            },
+            {
+                "name": "Alcazaba",
+                "value": "Replaces the Castle. +10% food growth in the city, +3 Science"
+            }
+        ]
+    },
     "morocco": {
         "country": "Morocco",
         "leader": "Ahmad al-Mansur",
@@ -1200,6 +1238,25 @@
             }
         ]
     },
+    "mysore": {
+        "country": "Mysore",
+        "leader": "Hyder Ali",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Brahmin Elite",
+                "value": "Specialists provide +1 production and +1 food, but provide 50% more unhappiness. [Other Specialist Happiness effects are calculated separately, for example Universal Suffrage gives -50% Happiness per Specialist, which totals +0% With Mysore]."
+            },
+            {
+                "name": "Rocket Corps",
+                "value": "Replaces Artillery. 24 melee strength and 28 ranged strength, does not need to set up to fire, 25% bonus vs melee units."
+            },
+            {
+                "name": "Mysore Palace",
+                "value": "Replaces the Hermitage. Available at Chivalry. Requires walls to be built in all cities. Provides +50% Culture in the City and yields +3 Production, Science and Gold. Starts a Golden Age."
+            }
+        ]
+    },
     "nabataea": {
         "country": "Nabataea",
         "leader": "Aretas III",
@@ -1211,7 +1268,7 @@
             },
             {
                 "name": "Zabonah",
-                "value": "Replaces the Scout. Cannot Attack. Discovers Cities [but does not meet the holder] faster than normal [ +3 tiles]. When this unit discovers a Capital or City-State, gain +10 Gold and +5 Experience. Does not upgrade from ruins."
+                "value": "Replaces the Scout. Cannot Attack. Discovers Cities [but does not meet the holder] faster than normal [ +3 tiles]. When this unit discovers a Capital or City-State, gain +15 Gold and +5 Experience. Does not upgrade from ruins."
             },
             {
                 "name": "Rock-Cut Tomb",
@@ -1245,11 +1302,11 @@
         "uniques": [
             {
                 "name": "Where She Goes",
-                "value": "Earn 25% more Influence for completing City-State quests. Whenever you first meet a Civilization or a City-State, earn a random one-time Faith (14), Culture (8), Gold (40) or Science (12) bonus."
+                "value": "Earn 25% more Influence for completing City-State quests. Whenever you first meet a Civilization or a City-State, earn a random one-time Faith (14), Culture (12), Gold (40) or Science (24) bonus."
             },
             {
                 "name": "Defender",
-                "value": "Replaces the Ironclad. Significantly cheaper to construct (120 hammers vs. 167). Earns a +15% Combat Bonus in friendly territory. Ignores Zone of Control (“adjacent-to-enemy” movement penalty) when within 2 tiles of a friendly City. Arrives promoted with Cover I."
+                "value": "Replaces the Ironclad. Significantly cheaper to construct (120 hammers vs. 167). Combat Strength increased from 45 to 50. Earns a +15% Combat Bonus in friendly territory. Ignores Zone of Control (“adjacent-to-enemy” movement penalty) when within 2 tiles of a friendly City. Arrives promoted with Cover I."
             },
             {
                 "name": "Maori Battalion",
@@ -1325,7 +1382,7 @@
             },
             {
                 "name": "Baghlah",
-                "value": "Replaces the Dromon. 8 base strength and Ranged strength. Has 4 base movement and receives faith from kills."
+                "value": "Replaces the Dromon. 8 base strength and Ranged strength. Has 4 base movement and receives gold and faith from kills. Starts with Costal Raider 1"
             },
             {
                 "name": "Minaa",
@@ -1387,6 +1444,25 @@
             {
                 "name": "Satrap's Court",
                 "value": "Unique building of the Persian civilization. Requires Market. Replaces the Bank."
+            }
+        ]
+    },
+    "philippines": {
+        "country": "Philippines",
+        "leader": "Emilio Aguinaldo",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "A Good Fight",
+                "value": "All Civilian and Naval units receive +2 Movement in your own territory. Your first 2 Expands start with +1 Population"
+            },
+            {
+                "name": "Gerilya",
+                "value": "Replaces the Marine. Available at Biology. 65 Strength. Starts with the volley promotion. 3 Movement and +3 Embarked Movement."
+            },
+            {
+                "name": "National Church",
+                "value": "Replaces the Zoo. Available at the Compass. Requires a Temple to be built instead of a Colosseum. +2 Happiness, +1 Culture and +4 Faith. Units built in a city with this Building receive +15XP."
             }
         ]
     },
@@ -1454,7 +1530,7 @@
         "uniques": [
             {
                 "name": "Mare Clausum",
-                "value": "Caravans and Cargo Ships are also 25% less costly to construct."
+                "value": "Caravans and Cargo Ships are also 33% (previously 25%) less costly to construct."
             },
             {
                 "name": "Feitoria",
@@ -1492,15 +1568,15 @@
         "uniques": [
             {
                 "name": "Nihil Sine Deo",
-                "value": "All Romanian Units earn 25% of foe’s Combat Strength as Science and Culture upon victory. Units gain a +10% Combat Bonus against wounded foes. +25% Culture output during Golden Ages."
+                "value": "Units gain a +10% Combat Bonus against wounded foes. +25% Culture output during Golden Ages."
             },
             {
                 "name": "Vanator",
-                "value": "Replaces Gatling Gun. 31 Strength and 2 Range (vs. 1)."
+                "value": "Replaces Gatling Gun. 31 Strength and 2 Range (vs. 1). Slightly cheaper (130 hammers vs 150)"
             },
             {
                 "name": "Painted Monastery",
-                "value": "Replaces the Garden. In addition to the typical perks, provides +2 Faith and 1 Great Artist point per turn. Does not require freshwater."
+                "value": "Replaces the Garden. In addition to the typical perks, provides +2 Faith, +2 Culture, 1+ Production and 1 Great Artist point per turn. Does not require freshwater."
             }
         ]
     },
@@ -1553,7 +1629,7 @@
             },
             {
                 "name": "Gallowglass",
-                "value": "Replaces Rifleman. Cheaper and available at Metallurgy (instead of Rifling). 29 Strength. Arrives with Altitude Training and Volley. Requires 1 Iron resource to train."
+                "value": "Replaces Rifleman. Cheaper and available at Metallurgy (instead of Rifling). 32 Strength. Arrives with Altitude Training and Volley. Requires 1 Iron resource to train."
             },
             {
                 "name": "Ceilidh Hall",
@@ -1762,7 +1838,7 @@
             },
             {
                 "name": "Kuva-yi Milliye",
-                "value": "Replaces Great War Infantry. Weaker (46 Strength vs. 50), +1 Movement. +25% Combat Bonus when a Great General is near (updated whenever you move the unit, or when you move the General and the unit has movement left) and Upgrades for free."
+                "value": "Replaces Great War Infantry. Weaker (46 Strength vs. 50), +1 Movement. +50% attack bonus. +25% Combat Bonus when a Great General is near (updated whenever you move the unit, or when you move the General and the unit has movement left) and Upgrades for free."
             },
             {
                 "name": "Halkevleri",
@@ -1796,11 +1872,11 @@
         "uniques": [
             {
                 "name": "The Way of Chumaks",
-                "value": "+1 Food from Maize, Wheat and Salt resources after researching The Wheel."
+                "value": "+1 Food from Maize, Wheat and Salt resources after researching The Wheel. Also recieves +2 Gold from City-Connections."
             },
             {
-                "name": "Zaphorosian Cossack",
-                "value": "Replaces Lancer. Arrives with Shock 1 and a +25% Combat Bonus in friendly territory."
+                "name": "Tachanka",
+                "value": "Replaces Gatling Gun. Considered a Mounted Ranged Unit. 4 movement, lost when moving into difficult terrain. 30 Strength, 30 Ranged Strength, 2 Range. Arrives with Shock 1."
             },
             {
                 "name": "Knyaz Court",
