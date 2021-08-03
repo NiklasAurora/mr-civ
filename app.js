@@ -32,7 +32,7 @@ client.on("message", message => {
     try {
         client.commands.get(command).execute(message, args);
     } catch (error) {
-        console.error(error);
+        console.error(error.name + ": " + error.message);
         message.reply("There was an error issuing that command");
     }
 });
