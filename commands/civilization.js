@@ -15,7 +15,7 @@ const randomize = (args) => {
         }
     }
 
-    if (args != "base" && args != "lekmod") {
+    if (args != "base" && args != "lekmod" && Object.keys(args).length !== 0) {
         let search = args[0].toLowerCase();
 
         civ = civs[search];
