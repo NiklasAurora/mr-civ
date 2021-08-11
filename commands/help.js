@@ -31,6 +31,14 @@ module.exports = {
                 {
                     "name": ".civ base",
                     "value": "Gives you a random Civilization from the ones in the base game."
+                },
+                {
+                    "name": ".civ <name-of-civ>",
+                    "value": "Search for a Civilization."
+                },
+                {
+                    "name": ".civ bots <amount>",
+                    "value": "Gives you a list of random Civilizations for your bots."
                 }
             ],
             image: {
