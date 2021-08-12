@@ -39,6 +39,14 @@ module.exports = {
                 {
                     "name": ".civ bots <amount>",
                     "value": "Gives you a list of random Civilizations for your bots."
+                },
+                {
+                    "name": ".map",
+                    "value": "Gives you a random LEKMOD map type",
+                },
+                {
+                    "name": ".map all",
+                    "value": "Random rolls all parts of the map"
                 }
             ],
             image: {
