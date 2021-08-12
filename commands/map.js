@@ -161,8 +161,6 @@ module.exports = {
         let map = randomize(args);
         let randomMap = preparePrint(map);
 
-        console.log(map);
-
         message.channel.send({ embed: randomMap });
     }
 };
