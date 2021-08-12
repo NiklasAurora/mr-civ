@@ -102,9 +102,5 @@
         "Sparse",
         "Average",
         "Plentiful"
-    ],
-    "raging-barbarians": [
-        "true",
-        "false"
     ]
 }
