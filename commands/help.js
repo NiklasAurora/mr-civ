@@ -42,11 +42,23 @@ module.exports = {
                 },
                 {
                     "name": ".map",
-                    "value": "Gives you a random LEKMOD map type",
+                    "value": "Gives you a random LEKMOD map type.",
                 },
                 {
                     "name": ".map all",
-                    "value": "Random rolls all parts of the map"
+                    "value": "Random rolls all parts of the map."
+                },
+                {
+                    "name": ".strat",
+                    "value": "Rolls random policies and ideology."
+                },
+                {
+                    "name": ".strat policy",
+                    "value": "Rolls random policies for you."
+                },
+                {
+                    "name": ".strat ideology",
+                    "value": "Rolls a random ideology for you."
                 }
             ],
             image: {
