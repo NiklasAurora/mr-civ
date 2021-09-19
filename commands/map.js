@@ -19,7 +19,67 @@ const randomize = (args) => {
         map = [
             {
                 name: "Map Type",
-                value: random(maps.types)
+                value: random(maps.types),
+                inline: true
+            },
+            {
+                name: "World Age",
+                value: random(maps["world-age"]),
+                inline: true
+            },
+            {
+                name: "Temperature",
+                value: random(maps.temperature),
+                inline: true
+            },
+            {
+                name: "Rainfall",
+                value: random(maps.rainfall),
+                inline: true
+            },
+            {
+                name: "Natural Wonders",
+                value: randomNumber(maps["natural-wonders"].min, maps["natural-wonders"].max),
+                inline: true
+            },
+            {
+                name: "Grass Moisture",
+                value: random(maps["grass-moisture"]),
+                inline: true
+            },
+            {
+                name: "Rivers",
+                value: random(maps.rivers),
+                inline: true
+            },
+            {
+                name: "Tundra",
+                value: random(maps.tundra),
+                inline: true
+            },
+            {
+                name: "Land Size X",
+                value: randomNumber(maps["land-size-x"].min, maps["land-size-x"].max),
+                inline: true
+            },
+            {
+                name: "Land Size Y",
+                value: randomNumber(maps["land-size-y"].min, maps["land-size-y"].max),
+                inline: true
+            },
+            {
+                name: "Resource Amount",
+                value: randomNumber(maps["resource-amount"].min, maps["resource-amount"].max),
+                inline: true
+            },
+            {
+                name: "Lakes",
+                value: random(maps["lakes"]),
+                inline: true
+            },
+            {
+                name: "Raging Barbarians",
+                value: Math.random() >= 0.5 ? "True" : "False",
             }
         ];
     }
