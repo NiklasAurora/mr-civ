@@ -1,24 +1,38 @@
 {
-    "name": "mr-civ",
-    "version": "1.0.0",
-    "description": "A Discord bot to assist with various Sid Meier's Civilization V tasks such as randomizing a civilization before launch, ultimate bravery and more",
-    "main": "app.js",
-    "scripts": {
-        "start": "node app.js",
-        "clean": "rm -rdf node_modules",
-        "lint": "node_modules/.bin/eslint .",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-        "discord",
-        "civilization-v"
-    ],
-    "author": "AuroraBTH",
-    "license": "MIT",
-    "dependencies": {
-        "discord.js": "^12.2.0"
-    },
-    "devDependencies": {
-        "eslint": "^7.0.0"
-    }
+	"name": "mr-civ",
+	"version": "2.0.0",
+	"description": "A Discord bot to assist with various Sid Meier's Civilization V tasks such as randomizing a civilization before launch, ultimate bravery and more",
+	"main": "build/index.js",
+	"scripts": {
+		"start": "node -r dotenv/config ./build/index.js",
+		"clean": "rm -rdf node_modules",
+		"lint": "node_modules/.bin/eslint .",
+		"build": "rm -rdf build && tsc"
+	},
+	"engines": {
+		"node": ">=16.9.0"
+	},
+	"keywords": [
+		"discord",
+		"civilization-v"
+	],
+	"author": "AuroraBTH",
+	"license": "MIT",
+	"dependencies": {
+		"@discordjs/builders": "^1.6.3",
+		"@discordjs/rest": "^1.7.1",
+		"discord-api-types": "^0.37.50",
+		"discord.js": "^14.11.0",
+		"dotenv": "^16.3.1"
+	},
+	"devDependencies": {
+		"@types/node": "^20.4.5",
+		"@typescript-eslint/eslint-plugin": "^6.2.0",
+		"@typescript-eslint/parser": "^6.2.0",
+		"eslint": "^8.46.0",
+		"eslint-config-prettier": "^8.9.0",
+		"eslint-plugin-json": "^3.1.0",
+		"prettier": "^3.0.0",
+		"typescript": "^5.1.6"
+	}
 }
