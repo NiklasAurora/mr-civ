@@ -1,105 +1,48 @@
 {
-    "types": [
-        "Archipelago",
-        "Continents",
-        "Donut",
-        "Inland Sea",
-        "Lakes",
-        "Oval",
-        "Pangaea - Fractal",
-        "Pangaea - Rectangular",
-        "Small Continents",
-        "Tiny Islands"
-    ],
-    "size": [
-        "Duel",
-        "Tiny",
-        "Small",
-        "Standard",
-        "Large",
-        "Huge"
-    ],
-    "city-states": {
-        "min": 0,
-        "max": 58
-    },
-    "game-pace": [
-        "Quick",
-        "Standard",
-        "Epic",
-        "Marathon"
-    ],
-    "starting-era": [
-        "Ancient",
-        "Classical",
-        "Medieval",
-        "Renaissance",
-        "Industrial",
-        "Modern",
-        "Atomic",
-        "Information"
-    ],
-    "world-age": [
-        "3 billion",
-        "4 billion",
-        "5 billion",
-        "No mountains"
-    ],
-    "temperature": [
-        "Cool",
-        "Temperate",
-        "Hot"
-    ],
-    "rainfall": [
-        "Arid",
-        "Normal",
-        "Wet"
-    ],
-    "sea-level": [
-        "Very low",
-        "Low",
-        "Medium",
-        "High",
-        "Very high"
-    ],
-    "natural-wonders": {
-        "min": 0,
-        "max": 12
-    },
-    "grass-moisture": [
-        "Wet",
-        "Normal",
-        "Dry"
-    ],
-    "rivers": [
-        "Sparse",
-        "Average",
-        "Plentiful"
-    ],
-    "tundra": [
-        "Sparse",
-        "Average",
-        "Plentiful"
-    ],
-    "land-size-x": {
-        "min": 30,
-        "max": 110
-    },
-    "land-size-y": {
-        "min": 20,
-        "max": 76
-    },
-    "resource-amount": {
-        "min": 1,
-        "max": 10
-    },
-    "islands": {
-        "min": 0,
-        "max": 24
-    },
-    "lakes": [
-        "Sparse",
-        "Average",
-        "Plentiful"
-    ]
+	"types": [
+		"Archipelago",
+		"Continents",
+		"Donut",
+		"Inland Sea",
+		"Lakes",
+		"Oval",
+		"Pangaea - Fractal",
+		"Pangaea - Rectangular",
+		"Small Continents",
+		"Tiny Islands"
+	],
+	"size": ["Duel", "Tiny", "Small", "Standard", "Large", "Huge"],
+	"cityStates": {
+		"min": 0,
+		"max": 58
+	},
+	"gamePace": ["Quick", "Standard", "Epic", "Marathon"],
+	"worldAge": ["3 billion", "4 billion", "5 billion", "No mountains"],
+	"temperature": ["Cool", "Temperate", "Hot"],
+	"rainfall": ["Arid", "Normal", "Wet"],
+	"seaLevel": ["Very low", "Low", "Medium", "High", "Very high"],
+	"naturalWonders": {
+		"min": 0,
+		"max": 12
+	},
+	"grassMoisture": ["Wet", "Normal", "Dry"],
+	"rivers": ["Sparse", "Average", "Plentiful"],
+	"tundra": ["Sparse", "Average", "Plentiful"],
+	"landSizeX": {
+		"min": 30,
+		"max": 110
+	},
+	"landSizeY": {
+		"min": 20,
+		"max": 76
+	},
+	"resourceAmount": {
+		"min": 1,
+		"max": 10
+	},
+	"islands": {
+		"min": 0,
+		"max": 24
+	},
+	"lakes": ["Sparse", "Average", "Plentiful"]
 }
