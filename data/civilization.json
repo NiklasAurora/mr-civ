@@ -5,22 +5,22 @@
         "extended": true,
         "uniques": [
             {
-                "name": "Epic of Battle",
-                "value": "+3 Culture, +1 Happiness and +1 Production from conquered cities. Generals give a +15% combat strength against cities to nearby units."
+                "name": "The Great Unification",
+                "value": "+3 Culture, +2 Happiness and +1 Production from conquered cities. Great Generals grant nearby units +15% combat strength against Cities."
             },
             {
                 "name": "Akkadian Library",
-                "value": "Replaces Library: Costs no maintenance, +1 Science. Costs less to produce (40 hammers vs. 50)."
+                "value": "Replaces Library: +1 Science and does not require Gold maintenance. Costs less to produce (40 hammers vs. 50)."
             },
             {
                 "name": "Laputtu",
-                "value": "Replaces Spearmen. 13 Strength (vs. 11). Doubles Workers’ improvement speeds on tiles it is stationed."
+                "value": "Replaces Spearmen. 13 Strength (vs. 11). Doubles Workers' improvement speeds on tiles it is stationed."
             }
         ]
     },
     "aksum": {
         "country": "Aksum",
-        "leader": "Ezana",
+        "leader": "Ezana of Aksum",
         "extended": true,
         "uniques": [
             {
@@ -33,7 +33,7 @@
             },
             {
                 "name": "King Ezana's Stele",
-                "value": "Replaces National Epic (but requires a Shrine in every city to build instead of Monuments). Provides +4 Culture and Faith in addition to the base stats. Grants +2 Food, +1 Production, +1 Gold and +1 Faith from all Shrines in the empire."
+                "value": "Replaces National Epic (but requires a Shrine in every city to build instead of Monuments). Provides +4 Culture and Faith in addition to the base stats. Grants +2 Food, +1 Production, +1 Gold and +1 Faith from all Shrines in the empire. Does not contain a Great Work of Writing Slot."
             }
         ]
     },
@@ -48,7 +48,7 @@
             },
             {
                 "name": "Minutemen",
-                "value": "Unique front-line unit of the American civilization. Replaces the Musketmen."
+                "value": "Unique front-line unit of the American civilization. Replaces the Musketmen. Can move through rough terrain as it were flat and earns points toward a Golden Age when it defeats an enemy."
             },
             {
                 "name": "Pioneer",
@@ -67,11 +67,11 @@
             },
             {
                 "name": "Camel Archer",
-                "value": "Unique ranged mounted unit of the Arabian civilization. Replaces the Knight. Requires Horses. (20 Ranged Strength (from 21), 14 Melee (from 17))"
+                "value": "Unique ranged mounted unit of the Arabian civilization. Replaces the Knight. Requires Horses. (20 Ranged Strength, 2 range, 14 Melee (from 20))"
             },
             {
                 "name": "Bazaar",
-                "value": "Unique building of the Arabian civilization. Replaces the Market."
+                "value": "Unique building of the Arabian civilization. Replaces the Market. Provides 1 extra copy of each improved luxury resource near this City. Each source of Oil and each Oasis provides +2 gold. Trade routes other players make to a city with a Bazaar will generate an extra 1 Gold for the city owner and the trade router owner gains an additional 1 Gold for the trade route."
             }
         ]
     },
@@ -96,7 +96,7 @@
     },
     "armenia": {
         "country": "Armenia",
-        "leader": "Artaxias I",
+        "leader": "Tiridates III",
         "extended": true,
         "uniques": [
             {
@@ -109,7 +109,7 @@
             },
             {
                 "name": "Darbas",
-                "value": "Replaces Observatory, providing +4 Science and +1 Culture. +3 culture and +4 science on Mountains (including mountainous Natural Wonders)."
+                "value": "Replaces Observatory, providing +4 Science and +4 Culture. +2 Culture and +5 Science on Mountains (including mountainous Natural Wonders)."
             }
         ]
     },
@@ -120,11 +120,11 @@
         "uniques": [
             {
                 "name": "Siege Warfare",
-                "value": "+1 movement for all siege units. Free Great Writer at Philosophy, and receive a free Great Work of Writing upon completion of the Royal Library in the Capital."
+                "value": "+1 movement for all siege units. Free Great Writer at Philosophy."
             },
             {
                 "name": "Royal Library",
-                "value": "+1 Culture, +1 Science in addition to normal behavior."
+                "value": "+1 Culture, +1 Science in addition to normal behavior. Also has a slot for a Great Work of Writing which, when filled, gives 15 extra XP to trained units."
             },
             {
                 "name": "Siege Tower",
@@ -139,11 +139,11 @@
         "uniques": [
             {
                 "name": "Dreamtime",
-                "value": "+5 Faith from Natural Wonders."
+                "value": "+5 Faith from Natural Wonders. Receives a Faith bonus every time you discover a Natural Wonder."
             },
             {
                 "name": "Ngangkari",
-                "value": "Replaces Worker. Starts with Medic I and Medic II promotions. Has +1 movement, can build workboats (4 turn build). Will not consume the unit."
+                "value": "Replaces Worker. Starts with Medic I and Medic II promotions. Has +1 movement."
             },
             {
                 "name": "Convict Penitentiary",
@@ -166,7 +166,7 @@
             },
             {
                 "name": "Coffee House",
-                "value": "Unique building of the Austrian civilization. Much cheaper to construct (100 vs 166.7). Replaces the Windmill."
+                "value": "Unique building of the Austrian civilization. Much cheaper to construct (100 vs 166.7), gives 20% Great Person generation in this City. Available at Printing Press instead of Economics. Replaces the Windmill."
             }
         ]
     },
@@ -177,11 +177,11 @@
         "uniques": [
             {
                 "name": "Justice of Saladin",
-                "value": "All cities receive a free Burial Tomb upon capture. +25% Improvement construction rate."
+                "value": "Receive a free Burial Tomb in all cities captured. +25% Worker Improvement Rate."
             },
             {
                 "name": "Madrasah",
-                "value": "Replaces University. +2 Faith from Madrasah, +1 Science from Flood Plains, +2 Science from Oases."
+                "value": "Replaces University. +2 Faith in addition of the normal University. Also grants +1 Science from Flood Plains and +2 Science from Oases."
             },
             {
                 "name": "Mamluk",
@@ -200,7 +200,7 @@
             },
             {
                 "name": "Floating Gardens",
-                "value": "Unique building of the Aztec civilization. Replaces the Water Mill. +10% Food, +1 Food for each worked Lake and Oasis, +2 Food and +1 Production, City must border fresh water"
+                "value": "Unique building of the Aztec civilization. Replaces the Water Mill. +10% Food, +1 Food for each worked Lake and Oasis, +2 Food and +1 Production, City must be build next to a River or Lake."
             },
             {
                 "name": "Jaguar",
@@ -219,11 +219,11 @@
             },
             {
                 "name": "Walls of Babylon",
-                "value": "Unique building of the Babylonian civilization. Replaces the Walls."
+                "value": "Unique building of the Babylonian civilization. Replaces the Walls. Grants 100 HP (+50) and 6 Defense (+1). Costs 65 Production (vs 75)."
             },
             {
                 "name": "Bowman",
-                "value": "Unique ranged unit of the Babylonian civilization. Replaces the Archer."
+                "value": "Unique ranged unit of the Babylonian civilization. Replaces the Archer. Has 7 Melee Combat (+2) and 9 Ranged Combat (+2)."
             }
         ]
     },
@@ -238,11 +238,11 @@
             },
             {
                 "name": "Stade",
-                "value": "Replaces Zoo. +3 Happiness, +1 Culture, +1 Gold. Cheaper to construct."
+                "value": "Replaces the Zoo. It provides 3 Happiness (vs 2), 1 Culture and 1 Gold. Has no GOld Maintenance and does not require a Colosseum."
             },
             {
                 "name": "Force Publique",
-                "value": "Replaces Great War Infantry. 51 Strength (vs. 50), has Drill I and Charge."
+                "value": "Replaces Great War Infantry. Receives Drill 1 (+15% Combat Strength when fighting in Rough Terrain) and Charge (+33 Combat Strength vs Wounded Units)."
             }
         ]
     },
@@ -253,26 +253,26 @@
         "uniques": [
             {
                 "name": "The Great Trek",
-                "value": "+1 Food from non-fresh water farms, +1 Culture from farms after the discovery of Fertilizer"
+                "value": "+1 Culture and +1 Food from farms."
             },
             {
                 "name": "Staatsmuseum",
-                "value": "Replaces Opera House. +3 Culture, has a Great Artist slot."
+                "value": "Replaces Opera House. +3 Culture (vs 2) and has a Great Artist slot."
             },
             {
                 "name": "Voortrekker",
-                "value": "Replaces Great War Infantry. Cheaper to build. 50 Strength, +25% Strength defending, heals completely upon killing a unit. Capable of building Farms in 2 turns."
+                "value": "Replaces Great War Infantry. Cheaper to build (300 vs 330). +25% Strength defending, heals completely upon killing a unit. Capable of building Farms in 2 turns."
             }
         ]
     },
     "bolivia": {
         "country": "Bolivia",
-        "leader": "Revolución Nacional",
+        "leader": "Manuel Belzu",
         "extended": true,
         "uniques": [
             {
-                "name": "Chemist",
-                "value": "Upon the discovery of Banking (previously Chemistry), expending a Great Artist improves the yield of Mines with +1 Production and expending a Great Writer improves them with +1 Food instead. [To confirm: These yields are swapped, do not stack and only work on artists and writers, not any unique or normal other Great People]"
+                "name": "Revolución Nacional",
+                "value": "Starting from the Medieval Era, expending a Great Artist improves the yield of Mines with +1 Production and expending a Great Writer improves them with +1 Food."
             },
             {
                 "name": "Comparsa Folklorica",
@@ -280,7 +280,7 @@
             },
             {
                 "name": "Colorado",
-                "value": "Replaces the Anti-tank Rifle. 40 Combat strength. Available at Dynamite. This unit is weaker against armored units (+100% bonus versus +200%), but receives +2 combat strength for every 5 excess happiness in the empire [rounds up, updates whenever a unit is moved, or during turn rolls]."
+                "value": "Replaces the Anti-Tank Rifle. 40 Combat strength (vs 50). Available at Dynamite (instead of Combined Arms). This unit is weaker against armored units (+100% bonus versus +200%), but receives +2 combat strength for every 5 excess happiness in the empire [rounds up, updates whenever a unit is moved, or during turn rolls]."
             }
         ]
     },
@@ -295,7 +295,7 @@
             },
             {
                 "name": "Pracinha",
-                "value": "Unique unit of the Brazilian civilization. Replaces the Infantry. 80 Strength and Foreign Lands bonus (+20% Combat Strength in foreign territory) on top of its normal promotions."
+                "value": "Unique unit of the Brazilian civilization. Replaces the Infantry. 80 Strength (vs 70). Has Foreign Lands (+20% Combat Strength in foreign territory) and earns points toward a Golden Age on combat victory."
             },
             {
                 "name": "Brazilwood Camp",
@@ -309,16 +309,16 @@
         "extended": true,
         "uniques": [
             {
-                "name": "Austronesian Thalassocracy",
-                "value": "Start with a Nelayan."
-            },
-            {
-                "name": "Nelayan",
-                "value": "Replaces Work Boat. Has 10 Combat Strength. Can build Fishing Boats and Kampong Ayer in 4 Turns."
+                "name": "Sea Nomads",
+                "value": "All Naval units may heal outside of friendly territory and all Naval Melee units may build improvements on water tiles. Pays 33% less Gold for Naval Unit maintenance."
             },
             {
                 "name": "Kampong Ayer",
-                "value": "Requires Optics. Can be built on any coastal tile touching land. Provides +1 Food, +1 Culture and +1 Gold and an additional +1 Culture and +1 Gold after discovering Flight."
+                "value": "Unique Improvement. Available at Optics. This improvement may only be built on a water-tile and next to at least 1 land tile. This improvement yields +1 Culture, +1 Gold and +1 Food. +1 Production at Navigation."
+            },
+            {
+                "name": "BMPC Plant",
+                "value": "Replaces the Oil Refinery. Requires no Oil resources nearby. Provides +2 Oil."
             }
         ]
     },
@@ -333,11 +333,11 @@
             },
             {
                 "name": "Konnitsa",
-                "value": "Replaces the Knight. Similar to an Impi, performs a Ranged attack when initiating combat. Gains a +25% Combat Bonus vs. Gunpowder units."
+                "value": "Replaces the Knight. Similar to an Impi, performs a Ranged attack when initiating combat."
             },
             {
                 "name": "Khambar",
-                "value": "Replaces Granary. 10% cheaper to construct. In addition to the typical perks, yields +1 Gold from Wheat and Cattle resources."
+                "value": "Replaces Granary. Cheaper to construct (55 vs 60). In addition to the typical perks, yields +1 Gold from Wheat and Cattle resources."
             }
         ]
     },
@@ -348,11 +348,11 @@
         "uniques": [
             {
                 "name": "Pyu City States",
-                "value": "+1 Happiness in every City."
+                "value": "+1 Happiness per City."
             },
             {
                 "name": "Akyat Cannon",
-                "value": "Replaces Cannon, available at Gunpowder. Has the same stats (that includes cost) as a Trebuchet but 3 Range."
+                "value": "Replaces Cannon, available at Gunpowder (instead of Chemistry). Has the same stats (that includes cost) as a Trebuchet but 3 Range."
             },
             {
                 "name": "Kyawwat",
@@ -375,7 +375,7 @@
             },
             {
                 "name": "Cataphract",
-                "value": "Unique mounted unit of the Byzantine civilization. Replaces the Horseman. Requires Horses."
+                "value": "Unique mounted unit of the Byzantine civilization. Replaces the Horseman. Requires Horses. Has lower city attack penalty (-25 vs -33) and does not have decreased defense."
             }
         ]
     },
@@ -386,15 +386,15 @@
         "uniques": [
             {
                 "name": "Canadian Fur Trade",
-                "value": "+2 Gold from Camps, +2 Gold and +1 Culture from Lakes and Oases."
+                "value": "+2 Gold from Camps, +2 Gold and +1 Culture from Lake tiles."
             },
             {
                 "name": "Combat Engineer",
-                "value": "Replaces Rifleman. Available at Industrialization. Identical Strength, but +1 Movement. May construct Roads, Railroads, and Forts, and clear Forests, Jungles and Marsh tiles."
+                "value": "Replaces Rifleman. Available at Industrialization. Identical Strength, but +1 Movement (3 vs. 2). May construct Roads, Railroads and Forts, and clear Forests, Jungles and Marsh tiles."
             },
             {
-                "name": "Tim Horton’s",
-                "value": "Replaces Stock Exchange. In addition to the normal effects of Stock Exchange provides +1 Gold on River tiles worked by this city and +2 Happiness. Marginally cheaper to construct."
+                "name": "Tim Horton's",
+                "value": "Replaces Stock Exchange. In addition to the typical perks, provides +2 Happiness in the City and +1 Gold to river tiles worked by this City. Significantly cheaper to construct (200 hammers vs. 280)."
             }
         ]
     },
@@ -405,15 +405,15 @@
         "uniques": [
             {
                 "name": "Phoenecian Heritage",
-                "value": "All coastal Cities get a free Harbor. Units may now enter Mountains without a General."
+                "value": "All Coastal Cities receive a free Harbor. Units may cross mountains, receiving 50 HP damage if they end their turn on one."
             },
             {
                 "name": "Cothon",
-                "value": "Replaces Lighthouse. +1 Food, Production and Gold in addition to normal effects of a Lighthouse."
+                "value": "Replaces Lighthouse. +1 Food in the City in addition to the typical perks."
             },
             {
                 "name": "African Forest Elephant",
-                "value": "No longer has increased Production cost. If attacking from higher elevation (Hills to flat land, Mountain to non-Mountain), gains +20% Combat Strength and knocks enemies back (Heavy Charge)"
+                "value": "Replaces Horsemen, but does not require Horses to construct. 14 Strength (vs. 12), but 3 Movement (vs. 4). Possesses the Feared Elephant (enemy Units adjacent to this Unit receive a -10% combat penalty), Great Generals II (earns Great General points faster) promotion and Hannibal's Charge (+20% Strength when initiating combat from a higher elevation than foe; enemy Units will retreat if they receive more damage than this Unit, this Unit deals +50% damage to defenders incapable of retreat)."
             }
         ]
     },
@@ -424,34 +424,34 @@
         "uniques": [
             {
                 "name": "Druidic Lore",
-                "value": "+1 Faith per city with an adjacent unimproved Forest. Bonus increases to +2 Faith in Cities with 3 or more adjacent unimproved Forest tiles."
+                "value": "Cities with an adjacent unimproved Forest tile generate +1 Faith, increasing to +2 Faith with three adjacent tiles."
             },
             {
                 "name": "Silversmith",
-                "value": "Replaces the Mint. Provides +2 Production and +1 Gold (instead of +2) and does not require resources to construct, but retains the typical perks of a Mint. Less costly to produce (50 hammers vs 66)."
+                "value": "Replaces the Mint. Provides +2 Production and +1 Gold (vs. +2 Gold) and does not require resources to construct, but retains the typical perks of a Mint. Less costly to produce (50 hammers vs. 66)."
             },
             {
                 "name": "Pictish Warrior",
-                "value": "Replaces Warrior (instead of the Swordsman). 10 Strength (vs. 8). Earn 100% of your foe’s Combat Strength as Faith from kills. Upgrades into Swordsmen (instead of Spearmen) from Ruins. (Warriors upgraded in this fashion will not suffer a Strategic Resource penalty and retain their Faith-earning promotion, but will lose these qualities upon further upgrade.)"
+                "value": "Replaces Spearmen. Earn 100% of your foe's Combat Strength as Faith from kills (previously 50%). Gains a +20% Combat Bonus outside of friendly territory and may pillage without movement penalties."
             }
         ]
     },
     "chile": {
         "country": "Chile",
-        "leader": "O’ Higgens",
+        "leader": "Bernardo O' Higgens",
         "extended": true,
         "uniques": [
             {
                 "name": "By Reason or by Force",
-                "value": "Fishing Boats and Dry Docks instantly claim all surrounding neutral tiles. Recieves 2 free Work Boats at Optics as well as a free Great Admiral at the Compass technology. Melee & Gunpowder units reduce nearby enemy Naval units' and Naval Melee units reduce nearby enemy Land units’ combat strength by 25%."
+                "value": "Claim all surrounding neutral tiles upon the completion of Fishing Boat or Drydock improvements. Receive a free Great Admiral at Compass. Friendly Melee & Gunpowder Units inflict a -25% Combat Penalty to adjacent enemy Naval Units; Melee Naval Units inflict this penalty to adjacent enemy Land Units."
             },
             {
                 "name": "Cooperative",
-                "value": "Replaces the Factory. Only 1 is needed to unlock your ideology. No maintenance cost."
+                "value": "Replaces the Factory. In addition to the typical perks, provides +2 Happiness and houses an additional Engineer Specialist (3 vs. 2). Does not require Gold maintenance. Ideologies are unlocked for Chile after the completion of only 1 Cooperative (compared to 3 Factories)."
             },
             {
                 "name": "Cardoen",
-                "value": "Replaces the Helicopter Gunship. May take Cities. Has a +100% combat bonus against ranged attacks."
+                "value": "Replaces the Helicopter Gunship. Stronger (85 Strength vs. 70). In addition to the typical bonuses, the Cardoen is capable of attacking and capturing Cities and receives a +100% Combat Bonus defending against ranged attacks."
             }
         ]
     },
@@ -462,15 +462,34 @@
         "uniques": [
             {
                 "name": "Art of War",
-                "value": "The Great General combat bonus is increased by 15%, and their spawn rate is increased by 50%."
+                "value": "Great Generals provide an additional +15% Combat Bonus to nearby Units and are generated +50% faster."
             },
             {
                 "name": "Paper Maker",
-                "value": "Unique building of the Chinese civilization. Replaces the Library."
+                "value": "Replaces the Library. Requires no Gold maintenance and provides +2 Gold."
             },
             {
                 "name": "Chu-Ko-Nu",
-                "value": "A Chinese unique ranged unit. Replaces the Crossbowman."
+                "value": "Replaces Crossbowmen. Weaker at base (14 Strength vs. 18), but may attack twice each turn."
+            }
+        ]
+    },
+    "colombia": {
+        "country": "Colombia",
+        "leader": "Simon Bolivar",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Independence of the People",
+                "value": "+1 Food and Gold from Lumber Mills. Lumber Mills receive an additional +1 Science at Chemistry. Earn 100 Golden Age points when capturing or liberating Cities."
+            },
+            {
+                "name": "Cacicazgo",
+                "value": "Replaces the Granary. In addition to the typical perks, provides +1 Production and Gold and allows the City to send Production through Trade Routes (as a Workshop would). Doesn't require Gold maintenance. Slightly more expensive to construct (44 hammers vs. 40)."
+            },
+            {
+                "name": "Llanero",
+                "value": "Replaces Cavalry. Capable of receiving defensive terrain bonuses and Fortifying."
             }
         ]
     },
@@ -480,16 +499,16 @@
         "extended": true,
         "uniques": [
             {
-                "name": "Cuba Pride (or something)",
-                "value": "For every other Civilization you have met, receive +1 Culture for every 5 Culture their Capital generates each turn. Upon selecting your first Tenet in an Ideology, immediately receive 2 Guerrilleros. Receive 50% less unhappiness from ideology pressure. [Culture bonus does not take % modifiers into account]"
+                "name": "¡Viva la Revolución!",
+                "value": "Receive +1 Culture per turn in your Capital for every 5 Culture per turn generated in the Capital of Civilizations you've met. Upon selecting your first Ideology Tenet, receive 2 Guerrilleros in the Capital. Receive -50% less Unhappiness from Ideology pressure."
             },
             {
                 "name": "Guerrillero",
-                "value": "Replaces the GWI. Unlocks after choosing your first Tenet in an ideology. 3 movement. 20% Cheaper to construct, but weaker (44 vs 50 melee strength)."
+                "value": "Replaces Great War Infantry. Available to produce only after the adoption of Cuba's first Ideology Tenet (as opposed to Replaceable Parts). Weaker (44 Strength vs. 50), but boasts 3 Movement (vs. 2) and can be built for significantly less (176 hammers vs. 221)."
             },
             {
                 "name": "Dance Hall",
-                "value": "Replaces the Opera house. 25% cheaper to construct. +1 Happiness, +15% production towards military units and +4 Culture if the Great work of Music is filled [updates every turn roll]."
+                "value": "Replaces the Opera House. In addition to the typical perks, the Dance Hall provides +1 Happiness, +4 Culture, and +15% Production towards military Units in the City when its Great Work slot is filled. (This bonus is updated at the start of every turn.) Cheaper to construct (100 hammers vs. 134)."
             }
         ]
     },
@@ -500,15 +519,15 @@
         "uniques": [
             {
                 "name": "Viking Fury",
-                "value": "Gains +1 Production from Fish Resources."
+                "value": "Embarked Units gain +1 Movement and may disembark for only 1 Movement. Melee Units pillage without movement penalties. +1 Production from Fish resources."
             },
             {
                 "name": "Berserker",
-                "value": "Unique unit of the Danish civilization. Replaces the Longswordsman. Requires Iron."
+                "value": "Replaces Longswordsmen. Available at Metal Casting instead of Steel. 3 Movement (vs. 2) and ignores penalties for attacking over rivers or while embarked."
             },
             {
                 "name": "Longship",
-                "value": "Replaces Trireme. +2 Movement, sharing movement with embarked units that start their turn on the same tile as the Longship."
+                "value": "Replaces Trireme. 6 Movement (vs. 4). Embarked Units that begin their turn on the same tile as a Longship are granted 6 Movement for that turn. (This Movement bonus is retained after disembarkation. Promoted Longships with bonus Movement will also confer this bonus to the embarked Unit.)"
             }
         ]
     },
@@ -519,15 +538,15 @@
         "uniques": [
             {
                 "name": "Monument Builders",
-                "value": "+15% (from 20%) Production when building Wonders"
+                "value": "+15% (from 20%) Production towards the construction of World Wonders."
             },
             {
                 "name": "Burial Tomb",
-                "value": "Egyptian unique ranged mounted unit. Replaces the Chariot Archer."
+                "value": "Replaces the Temple. In addition to the typical perks, provides +2 Happiness and does not require Gold maintenance. Cities with a Burial Tomb double the amount of Gold plundered for the conqueror."
             },
             {
                 "name": "War Chariot",
-                "value": "Unique building of the Egyptian civilization. Requires Shrine. Replaces the Temple."
+                "value": "Replaces the Chariot Archer. 5 Movement (vs. 4) and does not require Horse resources to construct."
             }
         ]
     },
@@ -538,15 +557,15 @@
         "uniques": [
             {
                 "name": "Sun Never Sets",
-                "value": "+2 Movement for all naval units. Receives 1 extra Spy."
+                "value": "English Naval Units receive +2 Movement. Receive an additional Spy upon entering the Renaissance. Constabularies and Police Stations are built twice as fast and provide +1 Happiness."
             },
             {
                 "name": "Longbowman",
-                "value": "Unique ranged unit of the English civilization. Replaces the Crossbowman."
+                "value": "Replaces Crossbowmen. 12 Melee Strength (vs. 13) and 18 Ranged Strength (from 17, vs. 18), but wields 3 Range (vs. 2)."
             },
             {
                 "name": "Ship of the Line",
-                "value": "Unique ranged naval unit of the English civilization. Replaces the Frigate. Requires Iron. 30 Ranged Combat (from 35), 25 Melee (from 30)"
+                "value": "Ship of the Line - Replaces the Frigate. +1 Sight. 25 Combat Strength (from 30, vs. 25) and 30 Ranged Strength (from 35, vs. 27). (The Ship of the Line has 5 Movement at base (vs. a Frigate's 6), increasing effectively to 7 due to Sun Never Sets.)"
             }
         ]
     },
@@ -557,15 +576,15 @@
         "uniques": [
             {
                 "name": "Spirit of Adwa",
-                "value": "Combat bonus (+20%) when fighting units from a Civilization with more Cities than Ethiopia."
+                "value": "Ethiopian Units gain a +20% Bonus in combat with Civilizations with more Cities than Ethiopia."
             },
             {
                 "name": "Stele",
-                "value": "Unique building of the Ethiopian civilization. Replaces the Monument. Available right from the start of the game."
+                "value": "Replaces the Monument. In addition to the Culture yield, provides +2 Faith."
             },
             {
                 "name": "Mehal Sefari",
-                "value": "Unique unit of the Ethiopian civilization. Replaces the Rifleman. Combat Strength slightly increased from 34 to 35. Near Capital Combat Bonus increased to 50% (from 30%). Bonus falloff increased to -5% per tile (from -3% per tile)."
+                "value": "Riflemen. 35 Strength (from 34, vs. 34). Arrives trained with Drill I (+15% Bonus in Rough terrain) and gains Strength according to distance from the Capital, peaking at +30% when the Mehal Sefari is stationed inside the Capital and decreasing by -3% per tile away. Cheaper to produce (134 hammers vs. 150)."
             }
         ]
     },
@@ -576,15 +595,15 @@
         "uniques": [
             {
                 "name": "Finnish Mobility",
-                "value": "All Melee and Mounted Units have a 50% increased flanking bonus. +1 Culture from unimproved Forest tiles."
+                "value": "All Melee and Mounted Units receive a +50% increased flanking bonus (+15% per ally adjacent to foe vs. 10%). +1 Culture from unimproved Forest tiles."
             },
             {
                 "name": "Sissi",
-                "value": "Replaces Machine Gun. 3 Movement. Ignores terrain cost and receives a +25% Combat Bonus vs. Armored units. Does not spend movement on pillaging tiles, but cannot attack twice. 60 Ranged Strength, 50 Melee (vs. 60)."
+                "value": "Replaces the Machine Gun. 3 Movement (vs. 2). Ignores terrain cost and receives a +25% Combat Bonus vs. Armored Units. Does not spend movement when pillaging tiles, but cannot attack twice. 60 Ranged Strength (vs. 50), 50 Melee Strength. Cheaper to construct (234 hammers vs. 260)."
             },
             {
                 "name": "Sauna",
-                "value": "Replaces Shrine: +2 Culture from Lake tiles. Units trained in Cities with a Sauna heal +10 HP inside friendly territory."
+                "value": "Replaces the Shrine. +2 Culture from Lake tiles. Units trained in Cities with a Sauna heal +10 HP inside friendly territory."
             }
         ]
     },
@@ -599,11 +618,11 @@
             },
             {
                 "name": "Chateau",
-                "value": "Cannot be built on a resource tile. Receives +2 Science and +1 Science at the Free Thought policy in addition to its regular yields."
+                "value": " Provides +2 Science, +2 Culture and +1 Gold, increasing by +1 Culture and +2 Gold at Flight, and +1 Science after adopting the Free Thought policy. Provides the same defensive bonus as a Fort (+50% bonus when foe initiates combat). Chateaus must be constructed adjacent to a luxury resource, non-adjacent to another Chateau, and not atop an existing Resource tile. (Resources discovered after the construction of the Chateau will provide their yield bonus to the tile, but the Chateau will not 'connect' those resources.)"
             },
             {
                 "name": "Musketeer",
-                "value": "Unique front-line unit of the French civilization. Replaces the Musketman."
+                "value": "Replaces Musketmen. 28 Strength (vs. 24). That's it."
             }
         ]
     },
@@ -614,15 +633,15 @@
         "uniques": [
             {
                 "name": "Holy Roman Empire",
-                "value": "+1 Faith from Farms. Frankish Units receive +25% Movement when traveling along friendly and neutral Roads and Railroads."
+                "value": "+1 Faith from Farms. Frankish Units receive +25% additional Movement when traveling along friendly and neutral Roads and Railroads."
             },
             {
                 "name": "Mead Hall",
-                "value": "Replaces Colosseum. +3 Happiness, +1 Culture"
+                "value": "Replaces the Colosseum. Provides an additional point of Happiness (3 vs. 2) and a bonus +1 Culture."
             },
             {
                 "name": "Seaxman",
-                "value": "Replaces Longswordsman. Available at Chivalry. 22 Strength (vs. 21). Arrives trained with the Cover I and Amphibious promotions."
+                "value": "Replaces Longswordsmen. Available at Chivalry instead of Steel. 22 Strength (vs. 21). Arrives trained with the Cover I (+33% bonus defending against ranged attacks) and Amphibious (attack from the sea or over rivers without penalty) promotions. Almost negligibly cheaper to construct (76 hammers vs. 80)."
             }
         ]
     },
@@ -633,15 +652,34 @@
         "uniques": [
             {
                 "name": "Oppidum of Bribacte",
-                "value": "Receive a free Murus Gallicus in the original Capital."
+                "value": "Receive a Murus Gallicus in the Capital upon the discovery of Mining."
             },
             {
                 "name": "Noble Swordsmen",
-                "value": "Replaces the Longswordsman. 20 Strength (vs. 21). Gains a +33% Combat Bonus when initiating combat and a +50% Bonus in Forests. Does not require Iron resources. Becomes obsolete at Rifling (instead of Gunpowder) and upgrades into Riflemen."
+                "value": "Replaces Longswordsmen. 20 Strength (vs. 21). Gains a +25% Combat Bonus when initiating combat and a +50% Bonus in Forests. Does not require Iron resources. Becomes obsolete at Rifling (instead of Gunpowder) and upgrades into Riflemen."
             },
             {
                 "name": "Murus Gallicus",
-                "value": "Replaces Walls. Slightly cheaper (44 Production vs. 50) and better defense (+6 vs. +5). +1 Production and +1 Happiness; +1 Production after researching Metal Casting."
+                "value": "Replaces Walls. Slightly cheaper (44 Production vs. 50) and better defense (+6 vs. +5). +1 Production and +1 Happiness; +1 additional Production after researching Metal Casting."
+            }
+        ]
+    },
+    "georgia": {
+        "country": "Georgia",
+        "leader": "Tamar",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Ecclesiastical Architecture",
+                "value": "Buildings unlocked by religious beliefs (except Houses of Worship) are built using Production instead (cost equal to 33% of the required Faith); these buildings provide +2 Production."
+            },
+            {
+                "name": "Tsikhe",
+                "value": "Replaces Walls. In addition to typical defensive perks, provides +3 Faith, and +1 Culture from Strategic Resources (e.g. Horses, Iron). Units trained in this City earn Golden Age points from kills."
+            },
+            {
+                "name": "Khevsur",
+                "value": "Replaces Swordsmen. Arrives at Guilds technology instead of Iron Working, but ignores terrain movement costs as a Scout would, and receives a +33% Combat Bonus during Golden Ages."
             }
         ]
     },
@@ -656,11 +694,11 @@
             },
             {
                 "name": "Hanse",
-                "value": "Unique building of the German civilization. Requires Market. Replaces the Bank."
+                "value": "Replaces Banks. In addition to the typical perks, gain +5% Production in the City for every Trade Route your empire currently maintains with a City-State."
             },
             {
                 "name": "Panzer",
-                "value": "Unique armored unit of the German civilization. Replaces the Tank. Requires Oil."
+                "value": "Replaces the Tank. 80 Strength (vs. 70) and 6 Movement (vs. 5)."
             }
         ]
     },
@@ -671,15 +709,15 @@
         "uniques": [
             {
                 "name": "Golden Conquest",
-                "value": "Receive a free Great Artist upon completing a Jarliq in a City. After the discovery of Philosophy, receive a free Jarliq in the Capital."
+                "value": "Units are +50% more effective at intimidating City-States. Puppeted Cities provide +50% Production, Gold, and Science, and generate -33% less Unhappiness."
+            },
+            {
+                "name": "Yam Route",
+                "value": "Replaces Caravansaries. Available at The Wheel instead of Horseback Riding. Retains Trade Route perks but doesn't provide Gold, instead providing +3 Science. Allows Airlifting between Cities with Yam Routes."
             },
             {
                 "name": "Ulan",
-                "value": "Replaces Pikeman. Behaves as a Mounted unit and requires a Horse resource. +2 Movement. Arrives trained with Ambush Formation I and does not receive a penalty vs. Cities."
-            },
-            {
-                "name": "Jarliq",
-                "value": "Replaces Courthouse. Requires Writing. Additionally provides +3 Gold and Science. Does not require Gold maintenance."
+                "value": "Replaces Pikemen. Stronger than its counterpart (17 Strength vs. 16). Behaves as a Mounted Unit and requires a Horse resource. 4 Movement (vs. 2). Arrives with Charge (+33% bonus against wounded foes) and does not receive a penalty in combat with Cities."
             }
         ]
     },
@@ -690,15 +728,15 @@
         "uniques": [
             {
                 "name": "Drauhtinon",
-                "value": "Melee and Gunpowder units receive +1 Movement and heal 25 HP after killing an enemy."
+                "value": "Melee and Gunpowder units receive +1 Movement."
             },
             {
                 "name": "Gadrauht",
-                "value": "Replaces Longswordsman. 22 Strength (vs. 21). Cheaper to produce, and does not require Iron. Moves along enemy Roads unimpeded."
+                "value": "Replaces Longswordsman. 22 Strength (vs. 21). Cheaper to produce (72 hammers vs. 80) and does not require Iron to train. Moves along enemy roads as if they were friendly roads."
             },
             {
                 "name": "Harjis",
-                "value": "Available at Mining. Must be adjacent to a Luxury resource (but not on a Luxury resource). Cannot be built adjacent to one another. Provides +1 Production. +1 Production upon the discovery of Iron Working, Gunpowder and Dynamite."
+                "value": "Available at Mining. Must be adjacent to a Luxury resource (but not on a Luxury resource) and non-adjacent to another Harjis. Provides +1 Production. Gains an additional +1 Production upon the discovery of Iron Working, Gunpowder and Dynamite."
             }
         ]
     },
@@ -709,15 +747,15 @@
         "uniques": [
             {
                 "name": "Hellenic League",
-                "value": "City-State Influence degrades at half and recovers at twice the normal rate."
+                "value": "City-State Influence degrades half as slowly and recovers at twice the typical rate."
             },
             {
                 "name": "Odeon",
-                "value": "Replaces the Ampitheater. +4 Culture, +1 Gold, and includes a slot for a Great Writer Specialist."
+                "value": "Replaces the Amphitheater. Provides +4 Culture (vs. 2), +1 Gold, and does not require Gold maintenance. Houses a slot for a Great Writer specialist."
             },
             {
                 "name": "Hoplite",
-                "value": "A Greek unique front-line unit. 14 Strength (from 13, vs. 11). Replaces the Spearman."
+                "value": "Replaces Spearmen. 13 Strength (vs. 11)."
             }
         ]
     },
@@ -728,15 +766,15 @@
         "uniques": [
             {
                 "name": "Bronze and Iron",
-                "value": "+1 Gold from Mines. Starts with Mining."
+                "value": "+1 Gold from Mines. Start with Mining Technology."
             },
             {
-                "name": "Lion’s Gate",
-                "value": "Replaces Walls. +2 Gold and +2 Culture."
+                "name": "Lion's Gate",
+                "value": "Replaces Walls. Cheaper to construct (40 hammers vs. 50). In addition to the typical defensive perks, provides +2 Gold and +2 Culture in the City."
             },
             {
                 "name": "Heavy Chariot",
-                "value": "Replaces Chariot Archer. Identical Ranged Strength and 3 Movement (vs. 4) , but 10 Melee Strength (vs. 5). Gains a +20% Combat Bonus when enemies initiate combat."
+                "value": "Replaces the Chariot Archer. Identical Ranged Strength and 3 Movement (vs. 4), but 10 Melee Strength (vs. 5). Gains a +20% defensive bonus when enemies initiate combat."
             }
         ]
     },
@@ -747,15 +785,15 @@
         "uniques": [
             {
                 "name": "Scourge of God",
-                "value": "Raze Cities at double speed. Borrow City names from other in-game Civs. Start with Animal Husbandry technology. +1 Production per Pasture."
+                "value": "Start with Animal Husbandry Technology. +1 Production from all Pastures. Raze Cities at double speed and borrow City names from rival Civilizations."
             },
             {
-                "name": "Qara U’y",
-                "value": "Replaces Stable. In addition to typical perks, yields +1 Faith from Horses. Provides +2 Horses (like Recycling Center)."
+                "name": "Qara U'y",
+                "value": "Replaces the Stable. In addition to the typical perks, yields +1 Faith from Horses. Provides 2 Horse Resources for the empire upon completion."
             },
             {
                 "name": "Horse Archer",
-                "value": "Unique Hunnic early ranged mounted unit. Replaces the Chariot Archer. Requires Horses"
+                "value": "Replaces the Chariot Archer. Greater Melee Strength (7 vs. 6), receives no movement penalty in Rough terrain, and arrives with Accuracy I (+15% bonus in Open terrain). Requires Horses to construct."
             }
         ]
     },
@@ -766,15 +804,15 @@
         "uniques": [
             {
                 "name": "Verszerzodes",
-                "value": "+1 Production and Culture from Defensive Buildings (Walls, Castles, Arsenals, Military Bases)."
+                "value": "Walls, Castles, Arsenals and Military Bases provide +1 Production and Culture. May construct up to 2 Palaces."
             },
             {
                 "name": "Black Arquebusier",
-                "value": "Replaces Musketman. Identical strength, but is capable of setting up to perform Ranged attacks (similar to a Siege unit). Arrives with Shock I."
+                "value": "Replaces Musketmen. Identical strength, but is capable of setting up to perform Ranged attacks (similar to a Siege Unit). Arrives with Accuracy I (+15% bonus in Open terrain). Slightly cheaper to produce (90 vs. 100)."
             },
             {
                 "name": "Orszaggyules",
-                "value": "Replaces the Palace. In addition to the regular bonuses of the Palace, a second Orszaggyules may be constructed to move the Capital, and the original can be sold and moved as well. The Capital is located in the last City to build an Orszaggyules. Provides +25% faster Great Person Generation and +10% Production towards buildings. +3 Food, Production and Culture at Chivalry. Requires Mathematics to construct."
+                "value": "Replaces the Palace. In addition to the regular bonuses of a Palace, provides +25% faster Great Person generation and +10% Production towards buildings in the City."
             }
         ]
     },
@@ -785,15 +823,15 @@
         "uniques": [
             {
                 "name": "Great Andean Road",
-                "value": "Units ignore terrain costs when moving into any tile with Hills. No maintenance costs for improvements in Hills; half cost elsewhere."
+                "value": "Units ignore terrain costs moving through Hills. No Gold maintenance is paid for tile improvements in Hills, and half the Gold is paid for improvements elsewhere."
             },
             {
                 "name": "Terrace Farm",
-                "value": "Unique improvement of the Incan civilization. Requires Construction."
+                "value": "May only be constructed in Hills. Provides +1 Food, increasing by an additional +1 Food for every adjacent Mountain tile. Like Farms, receives an additional +1 Food if adjacent to freshwater at Civil Service, otherwise receiving this bonus at Fertilizer if not adjacent to freshwater."
             },
             {
                 "name": "Slinger",
-                "value": "Unique ranged unit of the Incan civilization. Replaces the Archer. 5 Melee Strength (up from 4)."
+                "value": " Replaces the Archer. 5 Melee Strength (from 4, vs. 5). The Slinger has a chance to withdraw from melee combat initiated by foes, avoiding some damage depending on the available Movement of the attacker and the amount of available tiles behind the Slinger."
             }
         ]
     },
@@ -804,15 +842,15 @@
         "uniques": [
             {
                 "name": "Population Growth",
-                "value": "Unhappiness from number of Cities doubled, Unhappiness from number of Citizens halved."
+                "value": "Settling Cities produces twice as much Unhappiness. Unhappiness generated from the number of Citizens in the empire is halved. (Cities provide an additional +3 Unhappiness.)"
             },
             {
                 "name": "Mughal Fort",
-                "value": "Unique building of the Indian civilization. Requires Walls. Replaces the Castle. +4 Culture, +2 Happiness, +2 Tourism at Flight"
+                "value": "Replaces the Castle. In addition to the typical defensive perks, provides +4 Culture (from 2), and +2 Happiness. +2 Tourism at Flight. No longer requires Walls to construct."
             },
             {
                 "name": "War Elephant",
-                "value": "Unique ranged mounted unit of the Indian civilization. Replaces the Chariot Archer. +50% strength against Melee units."
+                "value": "Replaces the Chariot Archer. 8 Melee Strength (from 9, vs. 6) and 11 Ranged Strength (vs. 10). Slightly slower (3 Movement vs. 4) and more costly to produce (46 hammers vs. 37). Does not receive Movement penalties in Rough terrain and does not require Horses to construct. Arrives with Swift Charge (+50% bonus against Melee foes; +25% against Gunpowder foes)."
             }
         ]
     },
@@ -823,15 +861,15 @@
         "uniques": [
             {
                 "name": "Spice Islanders",
-                "value": "Unique Luxuries appear in the first 3 Coastal Cities (regardless of continent)."
+                "value": "Receive 2 copies of unique Luxury Resources in the first 3 Cities founded on separate landmasses. These Cities may never be Razed."
             },
             {
                 "name": "Candi",
-                "value": "Unique building of the Indonesian civilization. Replaces the Garden. May be built in all cities."
+                "value": "Replaces the Garden. In addition to the typical perks, provides +2 Faith and an additional +2 Faith for each Religion with at least 1 Follower in the City. Unlike the Garden, the Candi may be built without access to freshwater. 25% less costly to construct (60 hammers vs. 80)."
             },
             {
                 "name": "Kris Swordsman",
-                "value": "Unique unit of the Indonesian civilization. Replaces the Swordsman. Requires Iron. 15 Combat Strength (up from 14) and bad outcomes removed."
+                "value": "Replaces Swordsmen. 15 Strength (from 14, vs. 14). After its first combat, this Unit receives one of many unique promotions at random."
             }
         ]
     },
@@ -842,15 +880,15 @@
         "uniques": [
             {
                 "name": "Gaelic Revival",
-                "value": "+2 Happiness from all National Wonders (excluding the Palace). +15% Production towards constructing buildings required for National Wonders."
+                "value": "+2 Happiness from all National Wonders (excluding the Palace). All Cities receive a +15% Production bonus towards buildings required for National Wonders."
             },
             {
                 "name": "Fenian",
-                "value": "Replaces Rifleman. Significantly cheaper (110 vs. 150 Production). Combat Strength increased from 34 to 40."
+                "value": "Replaces Riflemen. Significantly stronger (40 Strength vs. 34) and significantly cheaper to construct (110 hammers vs. 150)."
             },
             {
                 "name": "Irish Pub",
-                "value": "Replaces Zoo. In addition to the typical perks, provides +3 Food in the City, and costs no Gold maintenance. +1 Production from Wine, Tea and Coffee resources in the City."
+                "value": "Replaces the Zoo. In addition to the typical perks, provides +3 Food in the City and requires no Gold maintenance. +1 Production from Wine, Tea, Coffee and Tobacco resources in the City."
             }
         ]
     },
@@ -861,15 +899,15 @@
         "uniques": [
             {
                 "name": "The Great Warpath",
-                "value": "Units move through Forest and Jungle in friendly territory as if they were Roads. These tiles can be used to establish 20xCityConnection5 City Connections upon researching The Wheel. Caravans move along Forest and Jungle as if they were Roads."
+                "value": "Units move through Forests and Jungles in friendly territory as if they were Roads. Forests and Jungles can be used to establish a City Connection upon the discovery of the Wheel, and extend the range of friendly Caravans like Roads."
             },
             {
                 "name": "Longhouse",
-                "value": "+10% Production (like regular Workshop), also extends Production yield to Jungle tiles. Cheaper to construct (50 vs. 80 Production)."
+                "value": "Replaces the Workshop. In addition to the typical perks, the Longhouse provides +1 Production to all worked Forest and Jungle tiles in the City. Significantly cheaper to construct (50 hammers from 66, vs. 80). The Longhouse now retains the +10% Production bonus of the Workshop."
             },
             {
                 "name": "Mohawk Warrior",
-                "value": "Unique front-line unit of the Iroquois civilization. Replaces the Swordsman. Has 15 Combat Strength (up from 14)."
+                "value": "Replaces Swordsmen. 15 Strength (from 14, vs. 14). Receives a +33% Combat Bonus fighting in Forests and Jungles. Does not require Iron."
             }
         ]
     },
@@ -884,11 +922,11 @@
             },
             {
                 "name": "Maccabee",
-                "value": "Replaces Swordsman. Significantly cheaper (40 vs. 50 Production). Earn 100% of foe’s Combat Strength as Faith upon kill."
+                "value": "Replaces Swordsmen. Earn 100% of foe's Strength as Faith from kills. Significantly cheaper to construct (40 hammers vs. 50). Does not require Iron to construct."
             },
             {
                 "name": "Yeshiva",
-                "value": "Replaces the Temple. More expensive (80 vs. 67 Production), but grants +1 Food and Production in the City."
+                "value": "Replaces the Temple. In addition to the typical perks, grants +1 Food and +1 Production in the City, but is more expensive to construct (80 hammers vs. 67)."
             }
         ]
     },
@@ -899,15 +937,15 @@
         "uniques": [
             {
                 "name": "Rinascimento",
-                "value": "+1 Culture from Specialists. Enter a Golden Age upon completion of a Policy Tree."
+                "value": "+1 Culture from Specialists. Receive 250 Golden Age points upon completion of a Policy Tree, and if already in a Golden Age, extends it by 3 turns."
             },
             {
                 "name": "Pittore",
-                "value": "Replaces Great Artist. Golden Ages started by a Pittore last for 9 turns (vs. 6), scaling to 14 turns with Chichen Itza or Freedom 3; scaling to 14 turns with both."
+                "value": "Replaces the Great Artist. Golden Ages started by a Pittore last for 9 turns (vs. 6), scaling to 14 turns with Chichen Itza or Universal Suffrage, but will not increase further with both."
             },
             {
                 "name": "Basilica",
-                "value": "Replaces Museum. Available at Industrialization. +20% faster Great Person generation. Contains 2 slots for Great Artist Specialists, and generates 2 Great Artist Points each turn."
+                "value": "Replaces the Museum. Available at Industrialization (instead of Archeology). +20% faster Great Person generation in the City. Houses 2 slots for Great Artist Specialists, and generates 2 Great Artist Points each turn."
             }
         ]
     },
@@ -918,15 +956,15 @@
         "uniques": [
             {
                 "name": "Bushido",
-                "value": "Units fight as though they were at full strength even when damaged. +1 Culture from each Fishing Boat and +2 Culture from Atolls."
+                "value": "Units fight at full Strength even when injured. +1 Culture from all Fishing Boats and +2 Culture from Atolls."
             },
             {
                 "name": "Dojo",
-                "value": "Replaces Barracks. +2 science. Land units built in a City with a Dojo gain a unique promotion, granting a +10% Combat Bonus."
+                "value": "Replaces the Barracks. In addition to the typical perks, provides +2 Science in the City and grants Units trained in this City an unconditional +10% Combat Bonus."
             },
             {
                 "name": "Samurai",
-                "value": "Unique unit of the Japanese civilization. Replaces the Longswordsman. Requires Iron."
+                "value": "Replaces Longswordsmen. Arrives with Shock I (+15% bonus in Open terrain) and Great Generals II (this Unit will boost progress towards Great Generals through combat more than normal). While embarked, the Samurai may construct Fishing Boats in 4 turns."
             }
         ]
     },
@@ -941,11 +979,11 @@
             },
             {
                 "name": "Crusader",
-                "value": "Replaces Longswordsman. 17 Strength, slightly cheaper to produce. Available at Theology. Receives Faith from kills and gains a +20% Combat Bonus outside of friendly territory. May enter rival territory without Open Borders."
+                "value": "Replaces Longswordsmen. Available at Theology (instead of Steel). Much weaker (17 Strength vs. 21), but receives a +20% Combat Bonus in foreign territory and may enter rival territory without Open Borders. Earns Faith from kills equal to twice the Strength of defeated foes. Cheaper to construct (70 hammers vs. 80)."
             },
             {
                 "name": "Outremer",
-                "value": "Replaces Courthouse. Eliminates extra Unhappiness, and provides +2 Culture, +2 Happiness, +2 Faith. Requires no Gold maintenance."
+                "value": "Replaces the Courthouse. In addition to the typical perks, provides +2 Culture, Faith and Happiness in the City. Requires no Gold maintenance."
             }
         ]
     },
@@ -959,12 +997,12 @@
                 "value": "Receive a free Baray in the capital."
             },
             {
-                "name": "Ballista Elephant",
-                "value": "Replaces Trebuchet (available at Machinery, upgrades from Catapult). 20 Ranged Strength (vs. 16), 3 Moves, 2 Range, classified as a Mounted Ranged unit. Arrives with the Feared Elephant promotion."
+                "name": "Baray",
+                "value": "Replaces the Garden. In addition to the typical perks, 10% of Food is carried over after a Citizen is born. +2 Food and +2 Faith at Drama and Poetry. The Baray may be built without access to freshwater."
             },
             {
-                "name": "Baray",
-                "value": "Replaces Garden. In addition to usual effects, 10% of Food is carried over after a Citizen is born. +2 Food and +2 Faith at Drama and Poetry."
+                "name": "Ballista Elephant",
+                "value": "Replaces the Trebuchet, available at Machinery (instead of Physics). 18 Ranged Strength (vs. 14), 20 Melee (vs. 12), and 3 Movement (vs. 2). Gains a +100% bonus initiating combat with Cities (vs. +200%). Unlike the Trebuchet, the Ballista Elephant does not receive a Sight penalty. Receives the Feared Elephant (enemy Units adjacent to this Unit receive a -10% combat penalty) promotion. (Feared Elephant will not stack.) Slightly more costly to construct (90 hammers vs. 80)."
             }
         ]
     },
@@ -975,15 +1013,15 @@
         "uniques": [
             {
                 "name": "Merchant Economy",
-                "value": "+5% Growth for each foreign Trade Route in the City. +4 Gold from internal Trade Routes."
+                "value": "Gain +5% Growth (excess Food) in the City for each foreign Trade Route departing the City. +4 Gold from internal Trade Routes. (Extra Food is updated the turn after the Trade Route is established.)"
             },
             {
                 "name": "Dhow",
-                "value": "Replaces Caravel, available at Compass. Costs less to produce, but has 17 Strength (vs. 20). Arrives with Boarding Party I."
+                "value": "Replaces the Caravel, available at Compass (instead of Astronomy). Costs less to produce (70 hammers vs. 80), but has 17 Strength (vs. 20). Arrives with the Boarding Party I (+15% Combat Bonus against Naval Units) promotion."
             },
             {
                 "name": "Coral Port",
-                "value": "Replaces Workshop. Yields the same Production as Workshop as well as +1 Food. Also provides +2 Production from Coral, +1 Culture from Fish, Pearls and Crabs, 2 Gold from Whales and +1 Production from Hardwood."
+                "value": "Replaces the Workshop. In addition to the typical perks, provides varying yields to certain Coastal resources. +2 Production from Coral. +1 Culture from Fish, Pearls, and Crabs. +2 Gold from Whales"
             }
         ]
     },
@@ -994,15 +1032,15 @@
         "uniques": [
             {
                 "name": "Heart of Africa",
-                "value": "Borders grow 33% faster."
+                "value": "Borders naturally expand 33% faster."
             },
             {
                 "name": "Ngao Mbeba",
-                "value": "Replaces Swordsman. 15 Strength, gaining a +100% Combat Bonus when defending against Ranged attacks. Cannot attack."
+                "value": "Replaces Swordsman. 15 Strength (vs. 14). May not initiate combat, but gains double Strength defending from Ranged attacks. Does not require Iron to produce."
             },
             {
                 "name": "Slave Market",
-                "value": "Replaces Colosseum. Subtracts 1 Population in the City upon completion. Provides +4 Production and +5 Gold, with an additional +3 Production and +2 Gold at Industrialization. Does not provide Happiness."
+                "value": "Replaces Colosseum. Subtracts 1 Citizen in the City upon completion. Provides +4 Production and +5 Gold, with an additional +3 Production and +2 Gold at Industrialization. Does not provide Happiness and does not require Gold maintenance."
             }
         ]
     },
@@ -1013,15 +1051,15 @@
         "uniques": [
             {
                 "name": "Scholars of the Jade Hall",
-                "value": "+1 Science from Specialists, +1 Science from the Palace."
+                "value": "+1 (from +2) Science from Specialists, +2 Science from Great Person tile improvements, and +1 Science from the Palace."
             },
             {
-                "name": "H’wacha",
-                "value": "Unique ranged unit of the Korean civilization. Cheaper to construct (67 hammers vs. 80). Replaces the Trebuchet."
+                "name": "H'wacha",
+                "value": "Replaces the Trebuchet. Massive 26 Ranged Strength (vs. 14), but slightly less Melee Strength (11 vs. 12). Suffers no Sight penalty, but receives no bonus initiating combat with Cities. Receives the Indirect Fire promotion."
             },
             {
                 "name": "Turtle Ship",
-                "value": "Unique naval unit of the Korean civilization. Replaces the Caravel."
+                "value": "Replaces the Caravel. Massive 36 Strength (vs. 20), but receives no Sight bonus, may not Withdraw from Melee attacks, and possesses 4 Movement (vs. 5). Cannot enter Ocean tiles."
             }
         ]
     },
@@ -1032,19 +1070,23 @@
         "uniques": [
             {
                 "name": "Baltic Mythology",
-                "value": "All Prophets generated or received by Lithuania become the Krivis, which can create the Sacred Grove, but cannot spread or found a Religion."
+                "value": "Great Prophets generated by or given to Lithuania are replaced with Krivises. Cannot found a Religion."
+            },
+            {
+                "name": "Krivis",
+                "value": "Replaces the Great Prophet. Incapable of spreading or founding a Religion, instead used to create Sacred Groves."
+            },
+            {
+                "name": "Improvement: Sacred Grove",
+                "value": "Provides +1 Food, Production, Culture, Science and Faith. Each yield increases by +1 upon the discovery of Philosophy, Theology, Acoustics, Archeology, Plastics, Computers, and the Internet (for a total of 8 of each yield)."
             },
             {
                 "name": "Pestininkas",
                 "value": "Replaces the Pikeman. Identical combat capabilities, but is significantly cheaper to construct (40 Production vs. 60)."
             },
             {
-                "name": "Sacred Grove",
-                "value": "Provides +1 Food, Production, Culture, Science and Faith. Each yield increases by +1 upon the discovery of Philosophy, Theology, Acoustics, Archeology, Plastics, Computers, and the Internet (for a total of 8 of each yield)."
-            },
-            {
-                "name": "Vilnius Temple",
-                "value": "Behaves like a Grand Temple but can be built without having a religion and may be built outside of a Holy City. 25% cheaper to construct (62 hammers vs. 82)."
+                "name": "Grand Cathedral of Vilnius",
+                "value": "Behaves like a Grand Temple but can be constructed without the presence of religion and may be built outside of a Holy City. Cheaper to construct (63 hammers vs. 84)."
             }
         ]
     },
@@ -1055,15 +1097,15 @@
         "uniques": [
             {
                 "name": "Macedonian Discipline",
-                "value": "Barracks and Armories provide +1 Food, Culture and Happiness. Receive a free Hetairoi at Horseback Riding."
+                "value": "Barracks and Armories provide +1 Food, Culture and Happiness in the City. Receive a free Hetairoi at Horseback Riding."
             },
             {
                 "name": "Hetairoi",
-                "value": "Replaces the Great General. 15 Combat Strength, 4 Movement. Requires a Horse resource. (If no Horses are available when this unit is generated, it receives a Strategic Resource penalty). Receives the Great Generals II, March, Charge, and Heavy Charge promotions for free. Can upgrade to Knight, but will lose its ability to create Citadels."
+                "value": "Replaces the Great General. Considered a Mounted Unit with 15 Combat Strength and 4 Movement with identical mechanics to Horsemen, and arrives with several promotions."
             },
             {
                 "name": "Sarissophoroi",
-                "value": "Replaces Pikeman. Available at Philosophy instead of Civil Service. Weaker, (14 Strength vs. 16), but gains a +100% Combat Bonus (vs. +50%) against Mounted units."
+                "value": "Replaces Pikemen. Available at Philosophy (instead of Civil Service). Weaker, (14 Strength vs. 16), but gains a +100% Combat Bonus (vs. +50%) against Mounted units."
             }
         ]
     },
@@ -1078,11 +1120,11 @@
             },
             {
                 "name": "Mpiambina",
-                "value": "Replaces Inquisitor (after buying a Inquisitor). Ranged unit with 8 Melee Strength and 14 Ranged. Receives a promotion from a unique selection after their first round of combat:"
+                "value": "Replaces the Inquisitor. Ranged Unit with 8 Melee Strength, 14 Ranged Strength, 1 Range, and 3 Movement. Receives one promotion from a unique pool after its first round of combat."
             },
             {
                 "name": "Rova",
-                "value": "Replaces Walls. In addition to the defensive perks, provides +1 Happiness and +3 Faith."
+                "value": "Replaces Walls. In addition to the typical perks, provides +1 Happiness and +3 Faith."
             }
         ]
     },
@@ -1093,15 +1135,15 @@
         "uniques": [
             {
                 "name": "Eight Banners",
-                "value": "All Manchu Mounted (and Armored) units receive the Volley promotion (+50% Combat Bonus vs. Fortified units and Cities) and require no Gold maintenance. Stables are built twice as fast and yield +1 Gold"
+                "value": "Mounted, Armored, and Bomber Units receive the Volley promotion (+50% bonus vs. Fortified Units and Cities) and pay no Gold maintenance. Stables are built twice as fast and provide +1 Gold."
             },
             {
                 "name": "Canton Factory",
-                "value": "Replaces Bank. +35% Gold (vs. +25%), +2 Gold, 2 Merchant Specialist slots (vs. 1), and nearly half as costly to construct (67 Production vs. 134)."
+                "value": "Replaces the Bank. In addition to the typical perks, boosts City gold output by an additional +10% (+35% vs. 25%), may house an additional Great Merchant Specialist, and is half as costly to produce (67 hammers vs. 134)."
             },
             {
                 "name": "Qianlong Cavalry",
-                "value": "Replaces Cavalry. Faster (5 Movement vs. 4) and generates Great Generals more quickly from combat (Great Generals I)."
+                "value": "Replaces Cavalry. Stronger and faster (36 Strength vs. 34 and 5 Movement vs. 4) and arrives with Great Generals I (this Unit will boost progress towards Great Generals through combat more than normal)."
             }
         ]
     },
@@ -1112,34 +1154,15 @@
         "uniques": [
             {
                 "name": "Mana of Tumatauenga",
-                "value": "During the first 5 turns, all units (except Recon units) receive +2 Movement and +1 Sight. After this, units receive +2 Movement during the first turn they appear."
+                "value": "During the first 5 turns, all units (except Recon units) receive +2 Movement and +1 Sight. After this, units receive +2 Movement during the first turn they appear. (Captured units, such as Workers, will receive this bonus on their first available move.)"
             },
             {
                 "name": "Maori Warrior",
-                "value": "9 Strength (vs. 8). Same promotion as the Polynesians."
+                "value": "9 Strength (from 8, vs. 8). Possesses the Haka War Dance (enemy Units adjacent to this Unit receive a -10% combat penalty) promotion."
             },
             {
                 "name": "Pa",
-                "value": "Available at Engineering. +2 Food and +1 Faith. May only be built on Hills without resources and cannot be constructed adjacent to one another. +1 Food at Civil Service and Fertilizer. +40% Defensive bonus to units stationed on a Pa."
-            }
-        ]
-    },
-    "maya": {
-        "country": "Maya",
-        "leader": "Pacal",
-        "extended": false,
-        "uniques": [
-            {
-                "name": "The Long Count",
-                "value": "After researching Theology, receive a bonus Great Person at the end of every Maya Long Count calendar cycle (every 394 years). Each bonus person can only be chosen once."
-            },
-            {
-                "name": "Pyramid",
-                "value": "Unique building of the Mayan civilization. Replaces the Shrine."
-            },
-            {
-                "name": "Atlatlist",
-                "value": "Unique ranged unit of the Mayan civilization, available from the start of the game. Replaces the Archer."
+                "value": "Available at Engineering. +2 Food and +1 Faith. May only be built on Hills without resources and cannot be constructed adjacent to one another. Gains an additional +1 Food at Civil Service and Fertilizer. Units stationed on a Pa receive a +40% defensive bonus."
             }
         ]
     },
@@ -1150,15 +1173,34 @@
         "uniques": [
             {
                 "name": "Inscriptions of the Dharma",
-                "value": "All non-air units receive a 15% Combat Penalty for attacking and a 15% Combat Bonus for defending. Non-Air Units heal every turn in your own territory."
+                "value": "All non-Air Units receive a -10% Combat Penalty when attacking and a +10% Combat Bonus when defending."
             },
             {
                 "name": "Fast Worker",
-                "value": "Replaces the Worker. 25% Cheaper. Ignores terrain cost."
+                "value": "Replaces the Worker. Ignores terrain Movement penalties."
             },
             {
                 "name": "Pillar of Ashoka",
-                "value": "Replaces the Monument. Costs no maintenance. 50% Cheaper."
+                "value": "Replaces the Monument. Half as costly to construct (13 hammers vs. 26) and requires no Gold maintenance. Available at Pottery (instead of immediate availability)."
+            }
+        ]
+    },
+    "maya": {
+        "country": "Maya",
+        "leader": "Pacal",
+        "extended": false,
+        "uniques": [
+            {
+                "name": "The Long Count",
+                "value": "After researching Theology, choose a Great Person at the end of each Mayan calendar cycle (every 394 in-game 'years'). Each type of Great Person may only be chosen once."
+            },
+            {
+                "name": "Pyramid",
+                "value": "Replaces the Shrine. In addition to the typical perks, provides an additional point of Faith (2 vs. 1) and +2 Science."
+            },
+            {
+                "name": "Atlatlist",
+                "value": "Replaces the Archer. Available immediately with identical combat capabilities and slightly less costly to construct (24 hammers vs. 27)"
             }
         ]
     },
@@ -1169,7 +1211,7 @@
         "uniques": [
             {
                 "name": "Encomienda System",
-                "value": "Receive a free Worker near the Capital at Pottery. City-States that are afraid of Mexico gain 8 Influence per turn when Mexico can demand tribute from them, but does not. Units are 50% more effective at intimidating City-States."
+                "value": "Receive a free Worker near the Capital at Pottery. City-States that are afraid of Mexico gain +6 Influence per turn when Mexico can demand tribute from them, but does not. Reveal all City-States within an 8-tile radius of your starting location after the end of the first turn."
             },
             {
                 "name": "Ranchero",
@@ -1177,7 +1219,7 @@
             },
             {
                 "name": "Hacienda",
-                "value": "Replaces Windmill. +1 Production from Luxury resources, +1 Gold from Bonus resources (e.g. Wheat, Fish), and +1 Food from Strategic Resources (e.g. Horses, Iron)."
+                "value": "Replaces Windmill. +1 Production from Luxury resources, +1 Gold from Bonus resources (e.g. Wheat, Fish), and +1 Food from Strategic Resources (e.g. Horses, Iron). Does not require Gold maintenance."
             }
         ]
     },
@@ -1188,15 +1230,15 @@
         "uniques": [
             {
                 "name": "Mongol Terror",
-                "value": "Combat Strength +30% when fighting City-State units or attacking a City-State itself. All mounted and armored units have +1 Movement. In addition, upon the discovery of Chivalry, reveal an additional Horse resource tile within the borders of every existing city; these Cities yield an additional +1 Food from all Horse resources. Spawned Horses will not spawn over existing resources or features (such as forests, mountains, or Natural Wonders), but may spawn on Hills if necessary."
+                "value": "Gain a +30% Combat Bonus in combat with City-States and their Units. Mounted and Armored Units receive +1 additional Movement. Upon the discovery of Chivalry, reveal an additional Horse resource tile within the borders of every current Mongol city; these Cities yield an additional +1 Food from all Horse resources."
             },
             {
                 "name": "Khan",
-                "value": "A Great Person, unique to the Mongolian civilization. Replaces the Great General."
+                "value": "Replaces the Great General. In addition to the typical traits, the Khan may move further (5 Movement vs. 4) and greatly improves the healing capabilities of adjacent Fortified Units by an additional +15 HP."
             },
             {
                 "name": "Keshik",
-                "value": "The Mongolian unique ranged mounted unit. Replaces the Knight. Requires Horses. Ranged Strength increased to 17 (from 16), Melee increased to 17 (from 15)."
+                "value": "Replaces the Knight. A Ranged Mounted Unit with 5 Movement (vs. 4), 17 Strength (from 15) and 17 Ranged Strength (from 16). May move after combat and receives no penalty in combat with Cities. Arrives trained with Great Generals I (this Unit will boost progress towards Great Generals through combat more than normal) and Quick Study (+50% XP earned through combat)."
             }
         ]
     },
@@ -1207,15 +1249,15 @@
         "uniques": [
             {
                 "name": "Glory of Al-Andalus",
-                "value": "All Cities have a 30% Production boost towards buildings (except Wonders) in the Medieval Era, 15% Production bonus in Renaissance. [Updates cities every turn or on tech gain]"
+                "value": "All Cities gain a +30% Production bonus towards buildings (not including Wonders) during the Medieval Era, decreasing to +15% in the Renaissance Era."
             },
             {
                 "name": "Grenadine Cavalry",
-                "value": "Replaces the Lancer. Has no City Penalty, but also may not move after attacking and does not receive a mounted combat bonus. A ranged unit with 2 Range. 29 Ranged strength, 25 melee strength."
+                "value": "Replaces the Lancer. A Ranged Mounted unit with identical Combat Strength to the Lancer in addition to 29 Ranged Strength and 2 Range. The Granadine Cavalry sees no bonuses against Mounted Units and may not move after initiating combat, but may attack Cities without penalty."
             },
             {
                 "name": "Alcazaba",
-                "value": "Replaces the Castle. +10% food growth in the city, +3 Science"
+                "value": "Replaces the Castle. Retains defensive capabilities in addition to providing +3 Science and +10% Food in the City."
             }
         ]
     },
@@ -1226,15 +1268,15 @@
         "uniques": [
             {
                 "name": "Gateway To Africa",
-                "value": "Each trading partner will grant an additional +1 Gold / +1 Culture per era (3/1 Ancient, 4/2 Classical, 5/3 Medieval, etc., per partner)."
+                "value": "Receive +2 Culture (from +1) and an additional +4 Gold (from +3) for each external Trade Route sent by or to Morocco. Rivals receive an additional +2 Gold for sending Trade Routes to Morocco. Receive an additional +1 Gold and Culture for every new Era entered."
             },
             {
                 "name": "Kasbah",
-                "value": "Unique improvement of the Moroccan civilization. Requires Chivalry. +2 Food (from +1), +1 Production, +1 Gold"
+                "value": "Available at Chivalry. May only be built on Desert tiles (excluding Oases). Provides +2 (from +1) Food, +1 Production, and +1 Gold. Units gain a +50% Combat Bonus defending this tile."
             },
             {
                 "name": "Berber Cavalry",
-                "value": "Unique unit of the Moroccan civilization. Replaces the Cavalry. Requires Horses. Desert promotion also applies to Oases and Flood Plains."
+                "value": "Replaces Cavalry. In addition to the typical traits, receives a +25% Combat Bonus inside friendly territory and a +50% bonus fighting in Desert, Floodplains, and Oases."
             }
         ]
     },
@@ -1245,15 +1287,15 @@
         "uniques": [
             {
                 "name": "Brahmin Elite",
-                "value": "Specialists provide +1 production and +1 food, but provide 50% more unhappiness. [Other Specialist Happiness effects are calculated separately, for example Universal Suffrage gives -50% Happiness per Specialist, which totals +0% With Mysore]."
+                "value": "Specialists provide +1 Food and Production, but generate +50% more Unhappiness. (This Unhappiness penalty interacts additively instead of multiplicatively with other bonuses or penalties. Universal Suffrage, for example, which reduces Specialist Unhappiness by 50%, would cancel out this penalty.)"
             },
             {
                 "name": "Rocket Corps",
-                "value": "Replaces Artillery. 24 melee strength and 28 ranged strength, does not need to set up to fire, 25% bonus vs melee units."
+                "value": "Replaces Artillery. Increased Melee Strength (23 vs. 21). Unlike Artillery, the Rocket Corps may attack without prior setup."
             },
             {
                 "name": "Mysore Palace",
-                "value": "Replaces the Hermitage. Available at Chivalry. Requires walls to be built in all cities. Provides +50% Culture in the City and yields +3 Production, Science and Gold. Starts a Golden Age."
+                "value": "Replaces the Hermitage. Available at Chivalry (instead of Architecture). Requires Walls to be built in all Cities. In addition to the typical perks, provides +3 Production, Science and Gold. Upon completion, the empire enters a Golden Age."
             }
         ]
     },
@@ -1264,15 +1306,15 @@
         "uniques": [
             {
                 "name": "Spring of Moses",
-                "value": "Fresh Water Farms yield +1 at Mathematics rather than Civil Service."
+                "value": "Freshwater Farms receive +1 Food at Mathematics rather than Civil Service."
             },
             {
                 "name": "Zabonah",
-                "value": "Replaces the Scout. Cannot Attack. Discovers Cities [but does not meet the holder] faster than normal [ +3 tiles]. When this unit discovers a Capital or City-State, gain +15 Gold and +5 Experience. Does not upgrade from ruins."
+                "value": "Replaces the Scout. May not attack. 3 Movement (vs. 2). May discover Cities from an additional +3 tiles away. When this Unit discovers a Capital or City-State, gain +10 Gold for the Empire. Will not upgrade from Ruins."
             },
             {
                 "name": "Rock-Cut Tomb",
-                "value": "Replaces the Canaversery. In addition of it’s usual effects, this building can only be built in a city next or on a Desert tile. +1 Food from outgoing trade routes."
+                "value": "Replaces the Caravansary. In addition to the typical perks, provides an additional +1 Gold (3 vs. 2) and +1 Food in the City. Gains an additional +1 Food for each Trade Route departing the City."
             }
         ]
     },
@@ -1283,15 +1325,15 @@
         "uniques": [
             {
                 "name": "Dutch East India Company",
-                "value": "+1 Happiness from each unique Luxury in the Empire and +1 Gold from Luxury resource tiles."
+                "value": "+1 Happiness from each unique Luxury in the empire and +1 Gold from Luxury resource tiles."
             },
             {
                 "name": "Polder",
-                "value": "Unique improvement of the Dutch civilization. Requires Guilds. May also be built by Workboats on Lakes or Coastal tiles with at least 3 adjacent land tiles."
+                "value": "Available at Guilds. May be built on Marsh and Floodplain tiles and on Lakes or Coastal tiles with at least 3 adjacent land tiles. +3 Food if constructed on Marsh, +2 Food if constructed on Lakes or Coast. Gains +1 Production and +2 Gold at Economics."
             },
             {
                 "name": "Sea Beggar",
-                "value": "27 Strength (from 25), arrives with the Boarding Party II and Supply promotions. Like all other Privateers in LEKmod, heal 25 HP for each kill. No longer receives the Coastal Raider promotion."
+                "value": "Replaces the Privateer. 27 Strength (from 25, vs. 27). Arrives with the Supply (may heal outside friendly territory; heals 15 HP each turn), Coastal Raider (+20% bonus when attacking Cities; Steal Gold equal to 33% of inflicted damage) and Boarding Party I (+15% bonus in Melee combat with Naval Units) promotions."
             }
         ]
     },
@@ -1302,15 +1344,15 @@
         "uniques": [
             {
                 "name": "Where She Goes",
-                "value": "Earn 25% more Influence for completing City-State quests. Whenever you first meet a Civilization or a City-State, earn a random one-time Faith (14), Culture (12), Gold (40) or Science (24) bonus."
+                "value": "Earn 10 Faith, 6 Culture, 40 Gold, or 12 Science when meeting a Civilization or City-State for the first time. (This bonus is randomly chosen.)"
             },
             {
                 "name": "Defender",
-                "value": "Replaces the Ironclad. Significantly cheaper to construct (120 hammers vs. 167). Combat Strength increased from 45 to 50. Earns a +15% Combat Bonus in friendly territory. Ignores Zone of Control (“adjacent-to-enemy” movement penalty) when within 2 tiles of a friendly City. Arrives promoted with Cover I."
+                "value": "Replaces the Ironclad. 50 Strength (vs. 45). Earns a +15% bonus inside friendly territory and ignores Zone of Control movement penalties when within 2 tiles of a friendly City. In addition to the typical traits, arrives with Cover I (gain a +33% bonus defending against Ranged attacks). Doesn't require Coal."
             },
             {
                 "name": "Maori Battalion",
-                "value": "Replaces Infantry. Behaves like a Marine when embarked. Receive a Combat Bonus the further this unit is away from the Capital (+2% per tile without limit). Each Battalion stationed within a City-State’s borders earns +1 Influence with that City-State each turn."
+                "value": "Replaces Infantry. Possesses the promotions and traits of a Marine. Receive a Combat Bonus the further this unit is away from the Capital (+2% per tile to a maximum of +40%). Each Battalion stationed within a City-State's borders earns +1 Influence with that City-State each turn."
             }
         ]
     },
@@ -1321,15 +1363,15 @@
         "uniques": [
             {
                 "name": "Castle Builders",
-                "value": "All Norman Units gain +10% Combat Strength outside of friendly territory. +5 defensive Strength in every City."
+                "value": "Units gain a +10% Combat Bonus outside of friendly territory. Cities receive +5 additional Strength."
             },
             {
                 "name": "Motte and Bailey",
-                "value": "Available at Engineering. +1 Food, +1 Production. +2 Culture at Flight. Cannot be built adjacent to one another. +25% Combat Strength for units stationed on this tile."
+                "value": "Available at Engineering. +1 Food and Production. +2 Culture at Flight. Cannot be built adjacent to one another. Units gain a +25% Combat Bonus defending this tile."
             },
             {
                 "name": "Pedite",
-                "value": "Replaces the Longswordsman, but is available earlier at Metal Casting (instead of Steel). 20 Strength (vs. 21). Very slightly cheaper to produce. Arrives with the Shock I promotion for free, and may construct Motte and Baileys."
+                "value": "Replaces the Longswordsman. Available at Metal Casting (instead of Steel). 20 Strength (vs. 21). Marginally cheaper to produce (77 hammers vs. 80). Arrives with Shock I (+15% bonus vs. foes in Open terrain) and may construct Motte and Baileys."
             }
         ]
     },
@@ -1340,15 +1382,15 @@
         "uniques": [
             {
                 "name": "Nordic Bounty",
-                "value": "+1 Food and +1 Production from Snow. +1 Production from Tundra."
+                "value": "+1 Faith from Coastal resources. +2 Food and +1 Production from Snow tiles."
             },
             {
                 "name": "Ski Infantry",
-                "value": "Replaces Great War Infantry. 50 Strength, Drill I, II, and Ski Infantry Promotion."
+                "value": "Replaces Great War Infantry (previously Riflemen). Matches the strength of its counterpart and arrives with Drill I and II (total of +30% bonus fighting in Rough terrain) and the unique Ski Infantry promotion (+25% bonus fighting in Snow, Tundra and Hills without Forests or Jungles; move twice as far through these tiles)."
             },
             {
                 "name": "Stave Church",
-                "value": "Replaces Temple. Decreased cost (50 Production vs. 67), and requires no Gold maintenance. +1 Faith from Coastal resources, but provides less Faith on its own."
+                "value": "Replaces the Temple. +1 Production from Tundra and Snow tiles. Cheaper to construct (50 hammers vs. 67) and requires no Gold maintenance."
             }
         ]
     },
@@ -1359,15 +1401,15 @@
         "uniques": [
             {
                 "name": "Ta-Seti",
-                "value": "Start with an Apedemak’s Bow."
+                "value": "Begin with a free Apedemak's Bow."
             },
             {
-                "name": "Apedemak’s Bow",
-                "value": "Replaces the Scout and has identical Strength, but is classified as a Ranged unit and may attack with 3 Range. Cannot upgrade from Ruins, but may upgrade into Airships like the Scout when appropriate."
+                "name": "Apedemak's Bow",
+                "value": "Replaces the Scout and has identical Strength, but is classified as a Ranged unit and may attack with 3 Range. Will not upgrade from Ruins, but can upgrade with Gold like the Scout when appropriate."
             },
             {
                 "name": "Blast Furnace",
-                "value": "Replaces Forge. Less costly to produce and does not require resources nearby. In addition to the typical perks, provides +2 Culture from Iron resources, and newly-trained Ranged, Siege and Recon units receive the Accuracy I promotion for free."
+                "value": "Replaces the Forge. In addition to the typical perks, provides +2 Culture by default, +2 Culture from Iron resources, and newly-trained Ranged, Siege and Recon units receive the Accuracy I (+15% bonus in Open terrain) promotion for free. Does not require resources nearby and does not require Gold maintenance."
             }
         ]
     },
@@ -1377,16 +1419,16 @@
         "extended": true,
         "uniques": [
             {
-                "name": "Oman's Pride (or something)",
-                "value": "All naval units ignore Zone of Control. +8 Gold per turn from trade routes going to conquered cities [note: does not show up as gold per turn in the gold tooltip screen]"
+                "name": "Chain of the Earth",
+                "value": "All Naval Units ignore Zone of Control movement penalties. Receive a free Seaport in conquered Cities."
             },
             {
                 "name": "Baghlah",
-                "value": "Replaces the Dromon. 8 base strength and Ranged strength. Has 4 base movement and receives gold and faith from kills. Starts with Costal Raider 1"
+                "value": "Replaces the Galley. Greater Melee Strength (8 Strength vs. 6) and Ranged Strength (12 vs. 8). Moves further (4 Movement vs. 3) and receives Faith and Gold from kills equal to the Strength of the defeated foe. Arrives with the Coastal Raider I (+20% bonus initiating combat with Cities; steal Gold equal to 33% of inflicted damage) promotion."
             },
             {
                 "name": "Minaa",
-                "value": "Replaces the Harbor. Enemy naval units take 30 damage if they end their turn next to a City with this building. +5 City defence. +2 Production from outgoing trade-routes."
+                "value": "Replaces the Harbor. Enemy Naval Units take 30 damage if they end their turn next to this City. Provides +5 City Strength, and +2 Production for each Trade Route departing the City. Allows units to Airlift between Cities with Minaa's."
             }
         ]
     },
@@ -1397,15 +1439,34 @@
         "uniques": [
             {
                 "name": "Millets",
-                "value": "Each City generates +1 Local Happiness for each Religion present in the City. Receive Faith when promoting units equal to the required experience (not when insta-healing)."
+                "value": "Each City gains +1 Local Happiness for each Religion present in the City. Receive Faith when promoting Units equal to the required experience (not when insta-healing)."
             },
             {
                 "name": "Sipahi",
-                "value": "Unique mounted unit of the Ottoman Empire. Replaces the Lancer. Requires Horses. Available at Gunpowder and costs 20% less Production to train."
+                "value": "Replaces the Lancer. In addition to the typical traits, receives +1 Sight and Movement (5 vs. 4) and may Pillage without movement penalty. Available at Gunpowder (previously Metallurgy) and costs less to produce (99 hammers from 123, vs. 123)."
             },
             {
                 "name": "Janissary",
-                "value": "Unique front-line unit of the Ottoman Empire. Replaces the Musketman. 20% less costly to produce."
+                "value": "Replaces Musketmen. Gains a +25% bonus when initiating combat and heals 50 HP from kills. Less costly to produce (80 from 100, vs. 100)."
+            }
+        ]
+    },
+    "palmyra": {
+        "country": "Palmyra",
+        "leader": "Zenobia",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Pearl of the Desert",
+                "value": "Cities provide fresh water to all adjacent tiles. Gardens and Water Mills ignore terrain requirements."
+            },
+            {
+                "name": "Palmyrene Theater",
+                "value": "Replaces Amphitheaters. Provides +2 Gold. +1 Production, Gold, and Culture from Oases, +1 Production from Lake tiles. Doesn't require Gold maintenance."
+            },
+            {
+                "name": "Clibanarius",
+                "value": "Replaces Horsemen. 14 Strength (vs. 12), arrives with Heavy Charge (enemy Units will retreat if they receive more damage than this Unit; this Unit deals +50% damage to defenders incapable of retreat). This promotion is kept on upgrade."
             }
         ]
     },
@@ -1416,15 +1477,15 @@
         "uniques": [
             {
                 "name": "The Holy See",
-                "value": "+1 Food, Production, Science, Gold, Culture and Faith from all Holy Sites. Receives 2 free Delegates in the World Congress."
+                "value": "+1 Food, Production, Science, Gold, Culture and Faith from all Holy Sites. Receive 2 free Delegates in the World Congress."
             },
             {
                 "name": "Swiss Guard",
-                "value": "Replaces Landsknecht. Does not require the Mercenary Army policy, but still must be purchased. Available at Economics. Slightly more expensive to purchase, but is faster (3 Moves vs. 2) and stronger (25 Strength vs. 16). Receive Faith and Gold from kills, extra Gold from Pillaging and arrives with Medic I and II promotions. May upgrade into Riflemen."
+                "value": "Replaces Landsknecht. Does not require the Mercenary Army policy, but still must be purchased. Available at Economics. More expensive to purchase (210 Gold vs. 160), but is faster (3 Movement vs. 2) and significantly stronger (25 Strength vs. 16). Receives Faith and Gold from kills equal to the Strength of the defeated foe, and arrives with Medic I and II (adjacent allies heal a total of +10 additional HP while Fortified). May upgrade into Riflemen."
             },
             {
-                "name": "St. Peter’s Basilica",
-                "value": "Replaces Grand Temple. In addition to the typical perks, provides a free Cathedral in the City, and a Great Prophet appears."
+                "name": "St. Peter's Basilica",
+                "value": "Replaces the Grand Temple. In addition to the typical perks, provides a free Cathedral in the City and spawns a Great Prophet near the City."
             }
         ]
     },
@@ -1435,15 +1496,15 @@
         "uniques": [
             {
                 "name": "Achaemenid Legacy",
-                "value": "Golden Ages last 50% longer. During a Golden Age, units receive +1 Movement and a +10% Combat Strength bonus."
-            },
-            {
-                "name": "Immortal",
-                "value": "The Persian unique front-line unit. Replaces the Spearman."
+                "value": "Golden Ages last +50% longer. During a Golden Age, Units receive +1 Movement. No longer receives a +10% Combat Bonus during a Golden Age."
             },
             {
                 "name": "Satrap's Court",
-                "value": "Unique building of the Persian civilization. Requires Market. Replaces the Bank."
+                "value": "Replaces the Bank. In addition to the typical perks, provides an additional +1 Gold (3 vs. 2) and +2 Happiness."
+            },
+            {
+                "name": "Immortal",
+                "value": "Replaces Spearmen. 12 Strength (vs. 11). In addition to the typical traits, the Immortal heals an additional +10 HP while fortified."
             }
         ]
     },
@@ -1453,16 +1514,16 @@
         "extended": true,
         "uniques": [
             {
-                "name": "A Good Fight",
-                "value": "All Civilian and Naval units receive +2 Movement in your own territory. Your first 2 Expands start with +1 Population"
+                "name": "The Good Fight",
+                "value": "Filipino Civilian and Naval Units receive +2 Movement in your own territory. The first two Cities you settle (after your Capital) begin with +1 extra Citizen."
             },
             {
                 "name": "Gerilya",
-                "value": "Replaces the Marine. Available at Biology. 65 Strength. Starts with the volley promotion. 3 Movement and +3 Embarked Movement."
+                "value": "Replaces Expeditionary Forces. Boasts a whopping 55 Strength (vs. 40). In addition to the Force's innate promotions, the Gerilya arrives with Volley (gain a +50% bonus against Fortified Units and Cities), 3 Movement (vs. 2), +3 additional Movement while embarked, and +1 Sight while embarked."
             },
             {
                 "name": "National Church",
-                "value": "Replaces the Zoo. Available at the Compass. Requires a Temple to be built instead of a Colosseum. +2 Happiness, +1 Culture and +4 Faith. Units built in a city with this Building receive +15XP."
+                "value": "Replaces the Zoo, but available at Compass instead of Printing Press. In addition to the typical perks of a Zoo, the National Church provides +1 Culture and +4 Faith, and provides +15 XP to Units trained in the City. Less costly to construct (100 hammers vs. 120)."
             }
         ]
     },
@@ -1473,14 +1534,14 @@
         "uniques": [
             {
                 "name": "Skillful Traders",
-                "value": "+25% Trade Route slot capacity. Sea Trade Routes gain 50% increased range. Start with a Square Sail Ship."
+                "value": "Receive a Square Sail Ship at Sailing. Upon the discovery of Optics, newly settled Cities begin with +1 extra Citizen."
             },
             {
                 "name": "Square Sail Ship",
-                "value": "Replaces the Trireme. May immediately enter Deep Ocean, and is slightly cheaper (25 hammers vs. 30)."
+                "value": "Replaces the Trireme. Can see 1 tile further than its counterpart and receives the Supply (may heal outside friendly territory; heals 15 HP each turn) promotion. Slightly cheaper to train (25 hammers vs. 30)."
             },
             {
-                "name": "Trade Harbour",
+                "name": "Trade Harbor",
                 "value": "Replaces the Harbor. In addition to the typical perks, provides +15% production towards Naval units and +1 Production from all Coastal resources."
             }
         ]
@@ -1492,15 +1553,15 @@
         "uniques": [
             {
                 "name": "Solidarity",
-                "value": "10% cheaper Social Policies (from 20%)."
+                "value": "Social Policies require -10% less Culture to adopt."
             },
             {
                 "name": "Ducal Stable",
-                "value": "Unique building of the Polish civilization. Replaces the Stable."
+                "value": "Replaces the Stable. In addition to the typical perks, provides +1 Gold from each Horse, Sheep, Cattle and Maize resource in the City. +15 XP for Mounted Units trained in the City. Requires no Gold maintenance."
             },
             {
                 "name": "Winged Hussar",
-                "value": "Unique unit of the Polish civilization. Replaces the Lancer. Requires Horses."
+                "value": "Replaces the Lancer. 28 Strength (vs. 25) and 5 Movement (vs. 4). In addition to the Lancer's innate promotions, arrives with the Heavy Charge (enemy Units will retreat if they receive more damage than this Unit; this Unit deals +50% damage to defenders incapable of retreat) promotion. No longer arrives with Shock (+15% bonus vs. foes in Open terrain)."
             }
         ]
     },
@@ -1511,15 +1572,15 @@
         "uniques": [
             {
                 "name": "Wayfinding",
-                "value": "All embarked units also have +1 movement and extra defense."
+                "value": "Units may embark and move through Oceans immediately. Embarked Units gain +1 Movement, +2 Sight (from +1), and double defensive Strength. Units gain a +10% Combat Bonus fighting within 2 tiles of a Moai."
             },
             {
                 "name": "Moai",
-                "value": "Unique improvement of the Polynesian civilization. Requires Construction."
+                "value": "Available at Construction. Must be built on land adjacent to the coast. Provides +1 Culture and gains an additional +1 Culture for each adjacent Moai. Gains +1 Gold at Flight."
             },
             {
                 "name": "Maori Warrior",
-                "value": "Replaces the Longswordsman. 23 Strength (vs. 21), requires no Iron resources, and arrives with the Amphibious promotion. Obsolete at Rifling."
+                "value": "Replaces Longswordsmen. 23 Strength (vs. 21), requires no Iron resources, and arrives with the Amphibious (attack from the sea or over rivers without penalty) promotion. Obsolete at Rifling (instead of Gunpowder)."
             }
         ]
     },
@@ -1530,15 +1591,15 @@
         "uniques": [
             {
                 "name": "Mare Clausum",
-                "value": "Caravans and Cargo Ships are also 33% (previously 25%) less costly to construct."
+                "value": "Receive twice as much Gold from Resource Diversity from Trade Routes. Caravans and Cargo Ships are 33% less costly to construct."
             },
             {
                 "name": "Feitoria",
-                "value": "Replaces Harbor. +1 Gold from Coastal resources, +15% Production for Naval units. Slightly cheaper to build and doesn’t require Gold maintenance."
+                "value": "Replaces the Harbor. In addition to the typical perks, provides +1 Gold from Coastal resources. Naval units trained in this City receive +15 XP. Cheaper to construct (67 hammers vs. 80) and doesn't require Gold maintenance."
             },
             {
                 "name": "Nau",
-                "value": "Unique unit of the Portuguese civilization. Replaces the Caravel."
+                "value": "Replaces the Caravel. 6 Movement (vs. 5). In addition to the typical perks, the Nau may perform a unique action when adjacent to foreign territory, gaining Gold for the empire and XP for the Unit scaling with the distance from Portugal's Capital."
             }
         ]
     },
@@ -1549,15 +1610,15 @@
         "uniques": [
             {
                 "name": "Army with a State",
-                "value": "All Prussian trained land units may receive unique Prussian Promotions upon leveling up. (Paradropping units can’t pick the extra attack promotion). +50% Production and Food from internal Trade Routes."
+                "value": "All Land Units may receive unique Promotions upon leveling up. +50% Food and Production from internal Trade Routes."
             },
             {
                 "name": "Fabrik",
-                "value": "Replaces the Factory. 25% cheaper to produce and does not require Coal resources."
+                "value": "Replaces the Factory. 25% cheaper to produce (180 hammers vs. 240) and does not require Coal resources."
             },
             {
                 "name": "Landwehr",
-                "value": "Replaces Rifleman. 34 Strength, available at Military Science, starts with Blitz and Quick Study. Has unique promotions."
+                "value": "Replaces Riflemen. Available at Military Science instead of Rifling. Arrives trained with Blitz (may attack twice each turn) and Quick Study (+50% Experience earned through combat). 3 Movement (vs. 2)."
             }
         ]
     },
@@ -1568,15 +1629,15 @@
         "uniques": [
             {
                 "name": "Nihil Sine Deo",
-                "value": "Units gain a +10% Combat Bonus against wounded foes. +25% Culture output during Golden Ages."
+                "value": "Units gain a +10% Combat Bonus against wounded foes. +25% Culture output during Golden Ages (for a total of +45% Culture)."
             },
             {
                 "name": "Vanator",
-                "value": "Replaces Gatling Gun. 31 Strength and 2 Range (vs. 1). Slightly cheaper (130 hammers vs 150)"
+                "value": "Replaces the Gatling Gun. 31 Melee and Ranged Strength (vs. 30) and 2 Range (vs. 1)."
             },
             {
                 "name": "Painted Monastery",
-                "value": "Replaces the Garden. In addition to the typical perks, provides +2 Faith, +2 Culture, 1+ Production and 1 Great Artist point per turn. Does not require freshwater."
+                "value": "Replaces the Garden. In addition to the typical perks, provides +1 Production, +2 Faith, and +1 Great Artist point per turn. Does not require freshwater. Cheaper to construct (67 vs. 80 hammers)."
             }
         ]
     },
@@ -1587,15 +1648,15 @@
         "uniques": [
             {
                 "name": "The Glory of Rome",
-                "value": "+25% Production towards any buildings that already exist in the Capital."
+                "value": "Gain +25% Production towards any Buildings that already exist in the Capital."
             },
             {
                 "name": "Ballista",
-                "value": "Unique siege unit of the Roman civilization. Replaces the Catapult. Has Indirect Fire."
+                "value": "Replaces the Catapult. 8 Melee Strength (vs. 7) and 10 Ranged Strength (vs. 8). May attack without prior setup. Receives the Indirect Fire promotion."
             },
             {
                 "name": "Legion",
-                "value": "Unique front-line unit of the Roman civilization. Replaces the Swordsman. Requires Iron."
+                "value": "Replaces Swordsmen. 16 Strength (from 17, vs. 14). May construct Roads and Forts."
             }
         ]
     },
@@ -1606,15 +1667,15 @@
         "uniques": [
             {
                 "name": "Siberian Riches",
-                "value": "Strategic Resources provide +1 Production, and Horse, Iron and Uranium Resources provide double quantity."
+                "value": "+1 Production from all Strategic Resources (e.g. Horses, Iron, etc.). Horse, Iron, and Uranium tiles provide twice the resources."
             },
             {
                 "name": "Krepost",
-                "value": "Unique building of the Russian civilization. Replaces the Barracks."
+                "value": "Replaces Barracks. In addition to the typical perks, reduces the Culture and Gold costs of acquiring tiles in the City by -25%."
             },
             {
                 "name": "Cossack",
-                "value": "Unique unit of the Russian civilization. Replaces the Cavalry. Requires Horses. Bonus vs. wounded foes reduced from 33% to 25%."
+                "value": "Replaces Cavalry. In addition to the typical traits, gains a +25% bonus (from +33%) in combat with wounded foes."
             }
         ]
     },
@@ -1629,11 +1690,11 @@
             },
             {
                 "name": "Gallowglass",
-                "value": "Replaces Rifleman. Cheaper and available at Metallurgy (instead of Rifling). 32 Strength. Arrives with Altitude Training and Volley. Requires 1 Iron resource to train."
+                "value": "Replaces Riflemen. Cheaper to construct (120 hammers vs. 150) and available at Metallurgy (instead of Rifling). 32 Strength (vs. 35). Arrives with Altitude Training (+10% bonus fighting in Hills; move twice as fast through these tiles) and Volley (+50% bonus vs. Fortified Units and Cities). Unlike Riflemen, requires 1 Iron resource to train."
             },
             {
                 "name": "Ceilidh Hall",
-                "value": "Identical to vanilla Celts."
+                "value": "Replaces the Opera House. In addition to the typical perks, provides an additional +1 Culture and +3 Happiness in the City."
             }
         ]
     },
@@ -1644,15 +1705,15 @@
         "uniques": [
             {
                 "name": "Great Expanse",
-                "value": "Founded cities start with 4 additional tiles (from 8). Units receive a 15% combat bonus when fighting within their own territory."
+                "value": "Founded Cities start with 4 additional tiles (previously 8) claimed. Units gain a +15% Combat Bonus in their own territory."
             },
             {
                 "name": "Pathfinder",
-                "value": "Unique unit of the Shoshone civilization. Replaces the Scout. Available right from the start of the game. 27 hammers to produce (from 30)."
+                "value": "Replaces the Scout. 27 hammers to produce (from 30, vs. 16). 8 Strength (vs. 5). When entering Ancient Ruins, the Pathfinder may select the benefit from the available pool. (This Unit upgrades into a Composite Bowman (instead of an Archer) from Ruins.)"
             },
             {
                 "name": "Comanche Riders",
-                "value": "Unique unit of the Shoshone civilization. Replaces Cavalry. Requires Horses."
+                "value": "Replaces Cavalry. 5 Movement (vs. 4) and costs less to produce (132 hammers vs. 150)."
             }
         ]
     },
@@ -1663,15 +1724,15 @@
         "uniques": [
             {
                 "name": "Father Governs Children",
-                "value": "Food, Culture and Faith from friendly City-States increased by 50%."
+                "value": "Gain +50% more Food, Culture Faith and Happiness from friendly City-States. Units from Military City-States arrive with an additional +10 XP and arrive +50% faster."
             },
             {
                 "name": "Wat",
-                "value": "Unique building of the Siamese civilization. Requires Library. Replaces the University."
+                "value": "Replaces the University. In addition to the typical perks, provides +3 Culture."
             },
             {
-                "name": "Naresuan’s Elephant",
-                "value": "Unique mounted unit of the Siamese civilization. Replaces the Knight."
+                "name": "Naresuan's Elephant",
+                "value": "Replaces the Knight. 25 Strength(vs. 20), but 3 Movement (vs. 4). Gains a +50% bonus against Mounted Units and does not require Horses to construct."
             }
         ]
     },
@@ -1682,15 +1743,15 @@
         "uniques": [
             {
                 "name": "Dwellers of the Plains",
-                "value": "All Sioux units receive a +15% Combat Bonus in Plains."
+                "value": "Units receive a +15% Combat Bonus fighting in Plains."
             },
             {
                 "name": "Buffalo Hunter",
-                "value": "Replaces Composite Bowman. 12 Ranged Strength (vs. 11), 8 Melee (vs. 7). Can construct Tipis."
+                "value": "Replaces Composite Bowman. 12 Ranged Strength (vs. 11), 8 Melee (vs. 7). Capable of constructing Tipis."
             },
             {
                 "name": "Tipi",
-                "value": "Can only be constructed on flat Plains or flatland Deer / Bison resources and must be adjacent to a Luxury resource. Provides +1 Food, +1 Faith. Bonus +1 Culture if adjacent to a city and +1 Gold if adjacent to a River. Gains +1 Food at Civil Service and +1 Faith at Theology. Available at Trapping."
+                "value": "Available at Trapping. May only be constructed on flat Plains or flatland Deer / Bison resources and must be adjacent to a Luxury resource. Provides +1 Food, +1 Faith. Bonus +1 Culture if adjacent to a city and +1 Gold if adjacent to a River. Gains +1 Food at Civil Service and +1 Faith at Theology."
             }
         ]
     },
@@ -1701,15 +1762,15 @@
         "uniques": [
             {
                 "name": "River Warlord",
-                "value": "Instead of the War Canoes promotion, provides unimpeded movement when moving along or across Rivers."
+                "value": "Receive triple Gold from clearing Barbarian camps and capturing Cities. Land Units receive the Amphibious (attack from the sea or over rivers without penalty) promotion and ignore terrain costs moving along or across Rivers."
             },
             {
                 "name": "Mud Pyramid Mosque",
-                "value": "Unique building of the Songhai civilization. Requires Shrine. Replaces the Temple."
+                "value": "Replaces the Temple. In addition to the typical perks, provides +2 Culture and requires no Gold maintenance."
             },
             {
                 "name": "Mandekalu Cavalry",
-                "value": "The Songhai civilization's unique mounted unit. Replaces the Knight. Requires Horses."
+                "value": "Replaces the Knight. Receives no penalty in combat with Cities and is slightly cheaper to produce (74 hammers vs. 80)."
             }
         ]
     },
@@ -1720,15 +1781,15 @@
         "uniques": [
             {
                 "name": "Seven Cities of Gold",
-                "value": "Grants 100 Gold (vs. 500 for first finder, and 100 after) upon discovering a Natural Wonder."
+                "value": "Gain 100 Gold (previously 500 if first to discover and 100 otherwise) and +1 additional Happiness for the empire upon the discovery of a Natural Wonder. Tile yields (including Happiness yields) from Natural Wonders are doubled."
             },
             {
                 "name": "Plaza de Toros",
-                "value": "Replaces Circus. +2 Culture, may also be built with an improved source of Cattle."
+                "value": "Replaces the Circus. In addition to the typical perks, provides +2 Culture, and may also be built with an improved source of Cattle in addition to Horses and Ivory."
             },
             {
                 "name": "Tercio",
-                "value": "Unique Renaissance Era unit of the Spanish civilization. Replaces the Musketman."
+                "value": "Replaces the Musketman. 26 Strength (vs. 24) and gains a +50% bonus against Mounted Units, but is slightly more expensive to construct (107 hammers vs. 100). (This unit is classified as a Melee Unit and not a Gunpowder Unit.)"
             }
         ]
     },
@@ -1743,11 +1804,11 @@
             },
             {
                 "name": "Ziggurat",
-                "value": "Replaces Temple. +2 Faith, +5% Science. Only costs 1 Gold to maintain (vs. 2)."
+                "value": "Replaces Temple. In addition to the Faith yield, provides +10% Science. Only costs 1 Gold to maintain (vs. 2)."
             },
             {
                 "name": "Phalanx",
-                "value": "Replaces Spearman. Available at Mining. 11 Strength, +50% Flanking bonus, slightly cheaper to produce."
+                "value": "Replaces Spearman. Available at Mining. +50% more effective at flanking (+15% per adjacent ally vs. +10%) and cheaper to construct (30 hammers vs. 37)."
             }
         ]
     },
@@ -1758,15 +1819,38 @@
         "uniques": [
             {
                 "name": "Nobel Prize",
-                "value": "+20% Great Person points in all cities."
+                "value": "+20% faster Great Person generation in all Cities. Receive 100 Influence and 200 Gold when gifting a Great Person to a City-State."
             },
             {
                 "name": "Carolean",
-                "value": "Replaces Musketman. 24 Strength, free March promotion."
+                "value": "Replaces Musketmen (instead of Riflemen). 3 Movement (vs. 2). Identical strength; arrives with March (heal 10 HP each turn even if an action was performed)."
             },
             {
                 "name": "Falu Gruva",
-                "value": "Replaces Ironworks. +1 Production from Hills in the City. +6 Tourism at Flight."
+                "value": "Replaces Ironworks. Available at Metal Casting (instead of Machinery). In addition to the typical perks, provides +1 Production to all Hill tiles in the City. Provides +6 Tourism at Flight."
+            }
+        ]
+    },
+    "switzerland": {
+        "country": "Switzerland",
+        "leader": "Jonas Furrer",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Swiss Banks",
+                "value": "Cities with an active Merchant Specialist provide +2 Production, Gold, and Science."
+            },
+            {
+                "name": "Ski Resort",
+                "value": "Replaces Stadiums. Available at Electricity (instead of Refrigeration). Provides +3 Happiness (vs. 2), +3 Culture, and +5 Tourism. Provides an additional +5 Tourism and +2 Gold for every Mountain within 3 tiles of the City; this bonus will only stack 5 times. Half as costly to construct (165 hammers vs. 330) and doesn't require Gold maintenance. Doesn't require a Zoo to construct."
+            },
+            {
+                "name": "Reisläufer Post",
+                "value": "Replaces Armories. Trained units receive the Mountaineer promotion (+10% Strength and +1 Movement at the start of turn when adjacent to Mountain tiles). Doesn't require Gold maintenance. Spawns a Reisläufer upon completion."
+            },
+            {
+                "name": "Reisläufer",
+                "value": "A unique Unit only available by completing Reisläufer Posts. Comparable to Longswordsmen with 20 Strength and 3 Movement. Receives Gold from defeated foes equal to twice their Strength."
             }
         ]
     },
@@ -1777,7 +1861,7 @@
         "uniques": [
             {
                 "name": "Eightfold Path to Nirvana",
-                "value": "Receive +2 Food, Production, Gold, Culture, Faith and Science in the capital upon the discovery of Drama and Poetry. +1 to those yields at Education, Acoustics, Industrialization, Radio, Radar and Globalization."
+                "value": "Receive +2 Food, Production, Gold, Culture, Faith and Science in the Capital upon the discovery of Drama and Poetry. +1 to those yields at Education, Acoustics, Industrialization, Radio, Radar and Globalization."
             },
             {
                 "name": "Dalai Lama",
@@ -1785,7 +1869,7 @@
             },
             {
                 "name": "Monastery",
-                "value": "Can only be built on Hills. Provides +2 Faith and +1 Culture, +1 additional Faith at Theology. +1 Culture for each adjacent Mountain. May be built in Forests and Jungles without removing them."
+                "value": "Available at Calendar. Can only be built on Hills. Provides +2 Faith and +1 Culture; +1 additional Faith at Theology. +1 Culture for each adjacent Mountain. May be built in Forests and Jungles without removing them."
             }
         ]
     },
@@ -1795,16 +1879,16 @@
         "extended": true,
         "uniques": [
             {
-                "name": "Ulugh Beg’s Observatory",
-                "value": "+5 Combat Strength and +10% Science, Production, Gold and Culture in the original Capital. These bonuses are terminated if the original Capital is captured."
+                "name": "Ulugh Beg's Observatory",
+                "value": "+5 City Strength and +15% Science, Gold and Culture in the original Capital. These bonuses are terminated if the original Capital is captured."
             },
             {
                 "name": "Marathi Rider",
-                "value": "Medieval Air unit, available at Chivalry. Replaces Horsemen. Requires 1 Horse, has 4 Range and 21 Combat Strength. Behaves as an Air unit, and receives the appropriate promotions."
+                "value": "Medieval Air Unit available at Chivalry. Replaces Horsemen. Requires 1 Horse; has 5 Range and 19 Combat Strength. Behaves as an Air Unit, and receives the appropriate promotions."
             },
             {
                 "name": "Serai",
-                "value": "Replaces Caravansary. +1 Gold for every 3 Citizens in the City, allows units to Airlift between Cities with Serais and increases Air unit capacity by 1."
+                "value": "Replaces Caravansary. Instead of providing +2 Gold at base, provides +1 Gold for every 3 Citizens in the City and otherwise retains the typical perks. Allows units to Airlift between Cities with Serais and increases Air Unit capacity in the City by 1. More costly to construct (67 hammers vs. 60). (This bonus scales linearly. In practice, each Citizen provides +0.33 Gold.)"
             }
         ]
     },
@@ -1815,15 +1899,15 @@
         "uniques": [
             {
                 "name": "The Friendly Islands",
-                "value": "+1 Gold and Science for every 5 Citizens in a City."
+                "value": "Resting Influence with City-States is increased by 5. All Islands, Coast tiles, and Coast-adjacent land tiles within a 10-tile radius of your starting Settler are revealed immediately."
             },
             {
                 "name": "Matato'a",
-                "value": "Replaces the Archer (but does not require Archery to produce). +1 Movement and +1 Sight; these bonuses are lost with upgrades. Obsolete at Machinery."
+                "value": "Replaces the Archer (but does not require Archery to construct). 3 Movement (vs. 2) and +1 Sight; these bonuses are lost with upgrades. Cheaper to construct (20 hammers vs. 26). Obsolete at Machinery. Cannot upgrade from Ruins."
             },
             {
-                "name": "Mala’e",
-                "value": "Replaces the Granary. Available at Sailing. Significantly cheaper to construct (30 hammers vs. 40), and provides +2 Food if the city is adjacent to at least 3 Coastal tiles."
+                "name": "Mala'e",
+                "value": "Replaces the Granary. Available at Sailing. Provides +1 Faith. Provides +2 Food and Culture if the city is adjacent to at least 3 Coastal tiles."
             }
         ]
     },
@@ -1834,20 +1918,20 @@
         "uniques": [
             {
                 "name": "Westernization",
-                "value": "Amphitheaters, Opera Houses, Museums and Broadcast Towers are built 50% faster and each provide 1 Science and Production. +1 Production and Science from Great Works."
+                "value": "Amphitheaters, Opera Houses, Museums and Broadcast Towers are built +50% faster and each provide +1 Science and Production. +1 Production and Science from Great Works."
             },
             {
                 "name": "Kuva-yi Milliye",
-                "value": "Replaces Great War Infantry. Weaker (46 Strength vs. 50), +1 Movement. +50% attack bonus. +25% Combat Bonus when a Great General is near (updated whenever you move the unit, or when you move the General and the unit has movement left) and Upgrades for free."
+                "value": "Replaces Great War Infantry. Weaker (47 Strength vs. 50), but boasts 3 Movement (vs. 2). Gains a +50% Combat Bonus when initiating combat, and may upgrade to Infantry for only 10 Gold."
             },
             {
                 "name": "Halkevleri",
-                "value": "Replaces the Public School. In addition to typical perks, provides +3 Culture and is 20% cheaper to construct."
+                "value": "Replaces the Public School. In addition to typical perks, provides +3 Culture and is 20% cheaper to construct (160 hammers vs. 200)."
             }
         ]
     },
     "uae": {
-        "country": "U.A.E",
+        "country": "United Arab Emirates (UAE)",
         "leader": "Sheikh Zayed",
         "extended": true,
         "uniques": [
@@ -1872,15 +1956,15 @@
         "uniques": [
             {
                 "name": "The Way of Chumaks",
-                "value": "+1 Food from Maize, Wheat and Salt resources after researching The Wheel. Also recieves +2 Gold from City-Connections."
+                "value": "+1 Food from Maize, Wheat and Salt resources after researching The Wheel. City Connections provide +2 Gold to connected Cities. (The Capital also receives +2 Gold after the first Connection is made.)"
             },
             {
                 "name": "Tachanka",
-                "value": "Replaces Gatling Gun. Considered a Mounted Ranged Unit. 4 movement, lost when moving into difficult terrain. 30 Strength, 30 Ranged Strength, 2 Range. Arrives with Shock 1."
+                "value": "Replaces the Gatling Gun. Classified as a Mounted Ranged unit with 2 Range and 4 Movement and suffers the same Movement and Defensive Penalties as all Mounted Units."
             },
             {
                 "name": "Knyaz Court",
-                "value": "Replaces Market. +2 Gold, +25% gold, Receive 20 Gold per Knyaz Court when a Great Person is consumed."
+                "value": "Replaces the Market. Compared to the Market, provides an additional point of Gold at base (2 vs. 1). Each Knyaz Court in the empire generates 20 Gold whenever Ukraine consumes a Great Person."
             }
         ]
     },
@@ -1891,15 +1975,15 @@
         "uniques": [
             {
                 "name": "Serenissima",
-                "value": "Capable of producing Settlers. Sea trade routes cannot be plundered. Receive a Free Trade Route and Cargo Ship when Compass is researched."
+                "value": "Receive a free Trade Route and Cargo Ship in the Capital once Compass is researched. Cargo Ships may not be plundered. Capable of producing Settlers."
             },
             {
                 "name": "Merchant of Venice",
-                "value": "A unique Great Person of the Venetian civilization, specialized in Trading. Replaces the Great Merchant."
+                "value": "Great Galleass (unchanged) - Replaces the Galleass. 18 Combat Strength (vs. 16) and 20 Ranged Strength (vs. 17), but costs 10% more to produce (73 hammers vs. 67)."
             },
             {
-                "name": "Grand Canal",
-                "value": "Replaces East India Company. Provides +2 Trade Routes, +25% Gold and +4 Gold. Increased Gold from Trade Routes. Does not require Markets and is available at Currency (instead of Guilds)."
+                "name": "Grand Canal of Venice",
+                "value": "Replaces the East India Company. Compared to the East India Company, provides an additional free Trade Route for a total of an additional two; boosts Gold generation in the City by an additional +15%, and does not require Markets in every City to produce. Available at Currency instead of Guilds."
             }
         ]
     },
@@ -1910,15 +1994,15 @@
         "uniques": [
             {
                 "name": "Tam Giao",
-                "value": "+2 Food, +1 Production from Marsh. +1 Faith from Jungle. Units receive double Movement through Marshes and Jungles, and receive a Combat Bonus in Marshes (+30%) and Jungles (+15%)."
+                "value": "+2 Food, +1 Production from Marsh. +1 Faith from Jungle. Units receive double Movement through Marsh and Jungle tiles and receive a Combat Bonus in Marshes (+30%) and Jungles (+15%)."
             },
             {
                 "name": "Viet Cong",
-                "value": "Replaces Infantry. 70 Strength, is Invisible except to adjacent units and can traverse mountains, taking 50 HP damage if they end their turn on one. NOTE - MAY CAUSE CRACHES WHEN CAPTURING CITIES, RECOMMENDED TO USE OTHER UNITS."
+                "value": "Replaces Infantry. Stronger (75 Strength vs. 70) and moves further (3 Movement vs. 2). When initiating combat, performs a bonus Ranged Attack prior to Melee combat. Gains a +25% Combat Bonus against Gunpowder units. This Unit may traverse mountains, taking 50 HP damage if it ends its turn on one. Cheaper to construct (233 hammers vs. 280)."
             },
             {
                 "name": "Vo Khi",
-                "value": "Replaces Armory. Available at Metal Casting, +1 Food, +1 Culture and +1 Production from Marsh. +1 Culture from Jungle. All melee units trained in a city with a Vo Khi receive the Woodsman promotion. Doesn’t require Barracks."
+                "value": "Replaces the Armory, available at Metal Casting (instead of Steel). In addition to the typical perks, provides +1 Food, +1 Culture and +1 Production from Marsh tiles and +1 Culture from Jungle tiles. All Melee Units trained in this City receive the Woodsman promotion (units move twice as fast through Forest and Jungle tiles). Doesn't require Barracks to construct."
             }
         ]
     },
@@ -1929,15 +2013,34 @@
         "uniques": [
             {
                 "name": "Hafod a Hendref",
-                "value": "+1 Food and +1 Gold from Sheep. All units receive a 15% Combat Bonus fighting on Hills."
+                "value": "+1 Food and +1 Gold from Sheep at Animal Husbandry. Units receive a +10% Combat Bonus fighting in Hills."
             },
             {
                 "name": "Saethwyr",
-                "value": "Replaces Crossbowman. 15 Combat Strength (vs. 13)."
+                "value": "Replaces Crossbowmen. 15 Combat Strength (vs. 13)."
             },
             {
                 "name": "Caer",
-                "value": "Unique Improvement unlocked at Chivalry. +25% Defense on this tile, +3 Gold, +1 Culture, and +1 Production. +1 Culture at Acoustics. Receives yields from certain policies. May only be built on Hills without resources."
+                "value": "Available at Chivalry. +3 Gold, +1 Culture, and +1 Production. Units gain a +25% Combat Bonus defending this tile. +1 Culture at Acoustics. Receives bonus yields from certain policies. +1 Culture from Cultural Exchange, +1 Science from Free Thought, +1 Food from completing the Commerce tree. May only be built on Hills without resources."
+            }
+        ]
+    },
+    "yugoslavia": {
+        "country": "Yugoslavia",
+        "leader": "Aleksandar I",
+        "extended": true,
+        "uniques": [
+            {
+                "name": "Non-Aligned Doctrine",
+                "value": "Pick a free Ideology Tenet when adopting or switching Ideologies and receive bonuses corresponding to both rival Ideologies. If not Freedom, Specialists provide +1 Gold. If not Autocracy, receive +15% Production towards land Units. If not Order, receive +2 Production and Science in all Cities."
+            },
+            {
+                "name": "M-84",
+                "value": "Replaces Tanks. Ignores Zone of Control movement penalties. Uh oh."
+            },
+            {
+                "name": "Spomenik",
+                "value": "Replaces Museums. In addition to the typical perks, provides +20% Science in the City, but costs more to construct (230 hammers vs. 200)."
             }
         ]
     },
@@ -1948,7 +2051,7 @@
         "uniques": [
             {
                 "name": "Great Zimbabwe",
-                "value": "+25% Production towards military units and all buildings in the Capital (Guilds, National and World Wonders do not count as buildings)."
+                "value": "+25% Production towards buildings and military Units in the Capital. (Guilds and National and World Wonders do not count as buildings)."
             },
             {
                 "name": "Shona Warrior",
@@ -1956,7 +2059,7 @@
             },
             {
                 "name": "Stone Mason",
-                "value": "Replaces Stoneworks. Does not provide Happiness, but is 20% cheaper to produce and provides +2 Culture. Doesn’t require resources to construct."
+                "value": "Replaces Stoneworks. Does not provide Happiness, but provides +2 Culture at Masonry, and otherwise retains the typical perks. Doesn't require any nearby resources to construct."
             }
         ]
     },
@@ -1967,15 +2070,15 @@
         "uniques": [
             {
                 "name": "Iklwa",
-                "value": "Melee units cost 50% less maintenance. All units require 25% less experience to earn their next promotion"
+                "value": "Melee Units pay 50% less Gold maintenance. All Units require 25% less experience to promote."
             },
             {
                 "name": "Ikanda",
-                "value": "Unique building of the Zulu civilization. Replaces the Barracks."
+                "value": "Replaces Barracks. Grants the Buffalo Horns promotion to all pre-Gunpowder Melee Units trained in the City and allows these Units to earn the Buffalo Chest and Loins promotions."
             },
             {
                 "name": "Impi",
-                "value": "Unique unit of the Zulu civilization. Replaces the Pikeman."
+                "value": "Replaces Pikemen. When initiating combat, performs a bonus Ranged Attack prior to Melee combat. Gains +25% Combat Strength against Gunpowder units."
             }
         ]
     }
