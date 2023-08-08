@@ -1,3 +1,9 @@
+## v2.1.0 (2023-08-08)
+
+- Updated civ list
+- Added EoL rule to eslint
+- Added alternatives to roll command
+
 ## v2.0.0 (2023-07-31)
 
 - Now uses the slash standard instead of prefixes
