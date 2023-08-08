@@ -1,7 +1,7 @@
 ![Logo](logo.png)
 
 ![Node version ^16.9.0](https://img.shields.io/badge/Node_version-^16.9.0-blue)
-![Latest project version 2.0.0](https://img.shields.io/badge/Latest_project_version-2.0.0-black)
+![Latest project version 2.1.0](https://img.shields.io/badge/Latest_project_version-2.1.0-black)
 
 # About
 

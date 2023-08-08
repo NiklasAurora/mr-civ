@@ -11,6 +11,7 @@ export const roll: Command = {
 		.setName('roll')
 		.setDescription('Roll for a civilization, leave empty for full random')
 		.addBooleanOption((option) => option.setName('lekmod').setDescription('Lekmod true/false'))
+		.addIntegerOption((option) => option.setName('alternatives').setDescription('Roll three civs to choose from').setMinValue(2).setMaxValue(5))
 		.addIntegerOption((option) =>
 			option
 				.setName('bots')
@@ -62,6 +63,32 @@ export const roll: Command = {
 
 				message.setTitle('List of civilizations');
 				message.setFields(bots);
+				message.setColor('#0099FF');
+				message.setTimestamp(new Date());
+			}
+		} else if (interaction.options.get('alternatives')) {
+			const userInput = interaction.options.get('alternatives');
+			const alternatives: { name: string, value: string }[] = [];
+
+			if (userInput && userInput.value) {
+				const numberOfAlternatives = userInput.value as number;
+
+				for (let i = 0; i < numberOfAlternatives; i++) {
+					const civ = random();
+					
+					alternatives.push({
+						name: civ.country + ' - ' + civ.leader,
+						value: '---',
+					})
+				}
+
+				alternatives.push({
+					name: 'Use the civ command to get more information about your civ',
+					value: '---'
+				})
+
+				message.setTitle('List of alternatives');
+				message.setFields(alternatives);
 				message.setColor('#0099FF');
 				message.setTimestamp(new Date());
 			}
