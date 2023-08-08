@@ -30,5 +30,6 @@ module.exports = {
 		'@typescript-eslint/no-var-requires': OFF,
 		"@typescript-eslint/no-unused-vars": [ERROR, { "argsIgnorePattern": "^_" }],
 		"@typescript-eslint/no-explicit-any": ERROR,
+		"eol-last": [ERROR, 'always'],
 	}
 }
