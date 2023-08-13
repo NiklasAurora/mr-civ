@@ -5,6 +5,7 @@
 	"main": "build/index.js",
 	"scripts": {
 		"start": "node -r dotenv/config ./build/index.js",
+		"prod": "NODE_ENV=production node -r dotenv/config ./build/index.js",
 		"clean": "rm -rdf node_modules",
 		"lint": "node_modules/.bin/eslint .",
 		"build": "rm -rdf build && tsc"

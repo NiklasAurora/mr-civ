@@ -8,10 +8,14 @@ export const onReady = async (Bot: Client) => {
 
 	const commandData = CommandList.map((command) => command.data.toJSON());
 
-	await rest.put(
-		Routes.applicationGuildCommands(Bot.user?.id || 'missing id', process.env.GUILD_ID as string),
-		{ body: commandData },
-	);
+	if (process.env.NODE_ENV === 'production') {
+		await rest.put(Routes.applicationCommands(Bot.user?.id || 'missing id'), { body: commandData });
+	} else {
+		await rest.put(
+			Routes.applicationGuildCommands(Bot.user?.id || 'missing id', process.env.GUILD_ID as string),
+			{ body: commandData },
+		);
+	}
 
-	console.log('Discord ready!');
+	console.info('Discord ready!');
 };
