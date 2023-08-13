@@ -1,3 +1,10 @@
+## v2.2.0 (2023-08-13)
+
+- Clean-up and refactor
+- Bots command is now separate command
+- Added autocomplete support for civ command
+- Added production support (which enables global commands)
+
 ## v2.1.0 (2023-08-08)
 
 - Updated civ list
