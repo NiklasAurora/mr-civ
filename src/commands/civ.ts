@@ -1,19 +1,30 @@
 import { SlashCommandBuilder } from '@discordjs/builders';
-import { EmbedBuilder } from 'discord.js';
+import { AutocompleteInteraction, CommandInteraction, EmbedBuilder } from 'discord.js';
 
 import { Command } from '../interfaces/Command';
 import { Civ } from '../interfaces/Data';
 
 const civs = require('./../../data/civilization.json');
 
-export const civ: Command = {
+export const civ = {
 	data: new SlashCommandBuilder()
 		.setName('civ')
 		.setDescription('Search for a civilization to see what they offer')
 		.addStringOption((option) =>
-			option.setName('name').setDescription('Civilization to search for').setRequired(true),
+			option.setName('name').setDescription('Civilization to search for').setAutocomplete(true).setRequired(true),
 		),
-	run: async (interaction) => {
+	autocomplete: async (interaction: AutocompleteInteraction) => {
+		const focusedValue = interaction.options.getFocused();
+		const choices = Object.keys(civs);
+		const filtered = choices.filter(choice => choice.startsWith(focusedValue));
+
+		if (filtered.length > 24) {
+			await interaction.respond([{ name: 'Add more characters to your search', value: 'none'}])
+		} else {
+			await interaction.respond(filtered.map(choice => ({ name: choice.charAt(0).toUpperCase() + choice.slice(1), value: choice})));
+		}
+	},
+	run: async (interaction: CommandInteraction) => {
 		await interaction.deferReply();
 
 		const userInput = interaction.options.get('name');
